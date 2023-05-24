@@ -124,12 +124,17 @@ div#home {
 
 div#about_me {
     position: relative;
-    top: 80px;
+    top: 100px;
     margin-bottom: 220px;
 }
 
 div#about_me h1 {
     padding: 20px;
+}
+
+div#about_me p {
+    font-size: 18px;
+    padding: 10px;
 }
 
 div#container_1 {
@@ -157,7 +162,7 @@ p#about_text {
 
 div#tecnologys {
     position: relative;
-    top: -50px;
+    top: -30px;
     left: 150px;
 }
 
@@ -176,6 +181,13 @@ h1#title_pj {
 img.projects {
     height: 240px;
     padding: 10px;
+}
+
+img.projects:hover  {
+    height: 255px;
+    width: 500px; 
+    transition: .4s;
+    tras
 }
 
 div#img_projects {
@@ -246,6 +258,8 @@ footer > p {
     padding: 25px 0px;
     font-weight: normal;
     color: #c4c4c4;
+    font-style: italic;
+    
 }
 
 .footer_social {
