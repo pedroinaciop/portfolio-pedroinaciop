@@ -125,7 +125,7 @@ div#home {
 
 div#about_me {
     position: relative;
-    top: 100px;
+    top: 200px;
     margin-bottom: 220px;
 }
 
@@ -170,7 +170,7 @@ div#tecnologys {
 /*---------------------------------- PROJECTS ---------------------------------------*/
 
 div#projects {
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 
 h1#title_pj {
@@ -198,7 +198,7 @@ div#img_projects {
 /*---------------------------------- CONTATO ---------------------------------------*/
 
 div#contact {
-    margin-top: 150px;
+   
 }
 
 div#contacts {
@@ -208,7 +208,7 @@ div#contacts {
 
 h1#title_contato {
    position: relative;
-   top: -45px;
+   top: -100px;
 }
 
 p#subtitle {
