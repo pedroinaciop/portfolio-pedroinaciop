@@ -10,14 +10,14 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
 
 html, body {
     height: 100vh;
     position: relative;
-    overflow-x: hidden;
+ 
 }
 
 main {
@@ -38,12 +38,11 @@ h1.title {
 nav {
     background-color: white;
     position: fixed;
-    display: block;
     text-align: center;
-    padding: 10px;
-    width: 100%;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.211);
+    padding: 20px;
+    width: 98.9%;
     z-index: 1;
+    box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.075);
 }
 
 nav > ul > li {
@@ -52,30 +51,24 @@ nav > ul > li {
 }
 
 nav a {
+    font-size: 18px;
     color: var(--cor0);
-    font-weight: bold;
 }
 
 nav a:hover {
-    transition: 1.0s;
     color: #103bfc;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-span.destaque {
-    color: var(--cor0);
+    font-weight: bolder;
 }
 
 span#mode {
-    position: relative;
+    font-size: 25px;
     color: var(--cor0);
+    position: relative;
     top: 5px;
     right: 50px;
 }
 
 span#mode:hover {
-    transition: 1.0s;
     color: #103bfc;
     cursor: pointer;
 }
@@ -84,53 +77,61 @@ span#mode:hover {
 
 img#photo {
     display: block;
+    position: relative;
+    left: 600px;
+    top: -50px;
     height: 400px; 
-    transform: translateX(150%);  
-    border-radius: 50px 0px 50px 0px;
+    border-radius: 50px;
     box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.373);
     z-index: 0;
 }
 
 div#texts {
-    position: relative;
     display: inline-block;
-    transform: translateY(130%);
-    top: 20px; 
+    position: relative;
+    top: 220px;   
+}
+
+div#texts  h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+div#texts  p {
+    color: rgb(80, 80, 80);
+    padding: 15px 0px;
 }
 
 div#redes{
     position: relative;
     display: block;      
-    top: -60px;                                                                                           
+    top: -80px;                                                                                           
     left: 80px;
 }
 
 div#redes svg{
     width: 100px;
-    padding: 0px 20px;
     color: var(--cor0);
 }
 
 div#redes svg:hover {
-    transition: 1.0s;
-    color: #103bfc;
-    
+    color: #103bfc;  
 }
  
 div#home {
-    height: 592px;
+    height: 700px;
+}
+
+span.destaque {
+    color: var(--cor0);
 }
 
 /*---------------------------------- ABOUT ME ---------------------------------------*/
 
 div#about_me {
     position: relative;
-    top: 200px;
-    margin-bottom: 220px;
-}
-
-div#about_me h1 {
-    padding: 20px;
+    top: 30px;
+    padding: 70px;
 }
 
 div#about_me p {
@@ -153,7 +154,7 @@ div#container_2 img {
 
 h1#title-about_me {
     position: relative;
-    top: 40px;
+    top: 30px;
 }
 
 p#about_text {
@@ -170,12 +171,12 @@ div#tecnologys {
 /*---------------------------------- PROJECTS ---------------------------------------*/
 
 div#projects {
-    margin-bottom: 400px;
+    margin-bottom: 300px;
 }
 
 h1#title_pj {
    position: relative;
-   top: 60px;
+   top: 100px;
 }
 
 img.projects {
@@ -191,30 +192,25 @@ img.projects:hover  {
 
 div#img_projects {
     position: relative;
-    top: 80px;
+    top: 110px;
     left: 20px;
 }
 
 /*---------------------------------- CONTATO ---------------------------------------*/
-
-div#contact {
-   
-}
 
 div#contacts {
     font-size: 20px;
     margin-left: 100px;
 }
 
-h1#title_contato {
-   position: relative;
-   top: -100px;
+div#contacts p {
+    font-size: 16px;
+    margin-left: 100px;
 }
 
 p#subtitle {
     position: relative;
-    top: -45px;
-    font-size: 16px;
+    top: 5px;
     text-align: center;
 }
 
@@ -222,8 +218,8 @@ p#subtitle {
     position: relative;
     color: #5271FF;
     font-size: 40px;
-    right: 50px;
-    top: 50px;
+    right: -50px;
+    top: 45px;
     
 }
 
@@ -245,7 +241,7 @@ div#redes_footer {
 }
 
 footer > h1 {
-    margin-right: 350px;
+    margin-right: 365px;
 }
 
 footer > h3 {
