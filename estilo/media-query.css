@@ -1,18 +1,29 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 320px) and (max-width: 415px) {
+
+    :root {
+        --color1: #5050ee;
+    }
     
     html, body {
         margin: 0;
         padding: 0;
         border: 0;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
     }
 
-/*---------------------------------- MENU ---------------------------------------*/
+    .title {
+        text-align: center;
+    }
+
+/*---------------------------------- CABEÇALHO ---------------------------------------*/
     
     header {
         background-color: white;
         box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+        height: 45px;
         position: 0px;
         margin: 0;
         padding: 0;
@@ -21,13 +32,200 @@
     nav ul {
         margin: 0;
         padding: 0;
-        padding: 10px;
+        padding: 5px;
     }
 
     nav li {
         display: inline;
         font-size: 13px;
-        padding: 10px;
-        margin-left: 10px;
+        padding: 3px;
+        margin-left: 15px;
+    }
+
+    nav a {
+        color: var(--color1);
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: #2828a4;
+        text-decoration: none;
+    }
+
+/*---------------------------------- MENU ---------------------------------------*/
+
+    .right-menu {
+        height: 350px;
+    }
+
+    .photo {
+        position: relative;
+        top: 60px;
+        left: 80px;
+        width: 200px;
+        border-radius: 200px; 
+        border: 5px double var(--color1);
+    }
+
+    .left-menu {
+        height: 470px;
+    }
+
+    .left-menu h1 {
+        font-size: 1.5em;
+        margin-left: 30px;
+    }
+
+    .left-menu p {
+        font-size: .9em;
+        margin-left: 30px;
+    }
+
+    .destaque, #destaque {
+        color: var(--color1);
+    }
+
+    .redes {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .redes a {
+        color: var(--color1);
+        padding: 20px;
     }
     
+    .redes a:hover {
+        color: #2828a4;
+    }
+
+/*---------------------------------- SOBRE MIM ---------------------------------------*/
+
+    div#about_me {
+        margin: 10px;
+    }
+    
+    div#about_me h1 {
+        padding: 20px;
+    }
+
+    div#about_me p {
+        text-align: justify;
+        font-size: .9em;
+    }
+
+    div#container_2 img {
+        position: relative;
+        top: 30px;
+        left: 60px;
+        height: 120px;
+    }
+
+/*---------------------------------- PROJETOS ---------------------------------------*/
+
+    div#projects {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    h1#title_pj {
+        padding: 15px;
+    }
+
+    .projects {
+        display: block;
+        margin: auto;
+        height: 150px;
+        padding-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}   
