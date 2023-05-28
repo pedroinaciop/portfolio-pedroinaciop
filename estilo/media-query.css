@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 375px) and (max-width: 415px) {
+@media screen and (min-width: 320px) and (max-width: 415px) {
     
     html, body {
         margin: 0;
@@ -9,8 +9,13 @@
     }
 
 /*---------------------------------- MENU ---------------------------------------*/
-    nav {
-        background-color: gray;
+    
+    header {
+        background-color: white;
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+        position: 0px;
+        margin: 0;
+        padding: 0;
     }
 
     nav ul {
@@ -23,4 +28,5 @@
         display: inline;
         font-size: 13px;
         padding: 10px;
+        margin-left: 10px;
     }
