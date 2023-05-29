@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 320px) and (max-width: 415px) {
-
     :root {
         --color1: #5050ee;
     }
@@ -139,93 +137,59 @@
         padding-top: 10px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}   
+/*---------------------------------- CONTATOS ---------------------------------------*/
+
+    div#contacts {
+        height: 400px;
+    }
+
+    p#subtitle {
+        text-align: center;
+    }
+
+    div#contacts {
+        text-align: center;
+        
+    }
+
+    .funcao {
+        display: none;
+    }
+
+    .material-symbols-outlined {
+        color: var(--color1);
+    }
+
+/*---------------------------------- FOOTER ---------------------------------------*/
+
+    footer {
+        background-color: var(--color1);
+        height: 250px;
+    }
+
+    div#start_header {
+        padding: 25px;
+    }
+
+    footer h1, h3 {
+        color: white;
+        text-align: center;
+        margin: 0;    
+    }
+
+    footer p {
+        text-align: center;
+        font-size: .9em;
+    }
+
+    div#redes_footer {
+        text-align: center;
+    }
+
+    div#redes_footer a {
+        color: white;
+    }
+
+    div#redes_footer a:hover{
+        color: #2828a4;
+    }
