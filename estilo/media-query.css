@@ -32,32 +32,18 @@
         height: 30px;
         position: relative;
         display: block;
-        background: #ebebeb;
-        border-radius: 20px;
-        box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
-        cursor: pointer;
-        transition: 0.3s;
     }
 
     label:after {
-        content: "";
         width: 26px;
         height: 26px;
         position: absolute;
         top: 2px;
         left: 2px;
-        background: linear-gradient(180deg, #ffcc89, #d8860b);
-        border-radius: 50px;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-        transition: 0.3s;
     }
-
-    
 
     input:checked + label:after {
         left: 68px;
-        transform: translate(-100%);
-        background: linear-gradient(180deg, #777, #3a3a3a);
     }
 
     label:active:after {
@@ -93,38 +79,6 @@
         border: 5px double var(--color1);
     }
 
-    .left-menu {
-        height: 470px;
-    }
-
-    .left-menu h1 {
-        font-size: 1.5em;
-        margin-left: 30px;
-    }
-
-    .left-menu p {
-        font-size: .9em;
-        margin-left: 30px;
-    }
-
-    .destaque, #destaque {
-        color: var(--color1);
-    }
-
-    .redes {
-        text-align: center;
-        padding: 50px;
-    }
-
-    .redes a {
-        color: var(--color1);
-        padding: 20px;
-    }
-
-    .redes a:hover {
-        color: #2828a4;
-    }
-
 /*---------------------------------- SOBRE MIM ---------------------------------------*/
 
     div#about_me {
@@ -132,17 +86,7 @@
         margin: auto;
         height: 650px;
         width: 730px;
-        padding-top: 50px;
-       
-    }
-
-    div#about_me h1 {
-        padding: 20px;
-    }
-
-    div#about_me p {
-        text-align: justify;
-        font-size: .9em;
+        padding-top: 50px;  
     }
 
     div#container_2 img {
@@ -200,7 +144,6 @@
 /*---------------------------------- FOOTER ---------------------------------------*/
 
     footer {
-        background-color: var(--color1);
         height: 150px;
     }
 
@@ -220,7 +163,6 @@
         top: -50px;
         text-align: center;
     }
-
 
     div#redes_footer {
         position: relative;
