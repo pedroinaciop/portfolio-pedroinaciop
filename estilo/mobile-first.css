@@ -21,6 +21,45 @@
         padding-top: 50px;
     }
 
+    body::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    body::-webkit-scrollbar-track {
+        background: white;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: #5050ee;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #5050ee;
+        border: 1px solid black;
+        background-image: url("seta.png");
+        text-decoration: none;
+    }
+    .btn::after {
+        content: "🠕";
+        background-image: url("seta.png");
+        font-size: 32px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        transition: margin-top 250ms;
+    }
+    .btn:hover::after {
+        margin-top:-8px;
+    }
+
 /*---------------------------------- CABEÇALHO ---------------------------------------*/
     
     header {

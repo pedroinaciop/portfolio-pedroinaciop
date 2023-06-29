@@ -25,4 +25,4 @@ function darkMode() {
         text2.style.color = 'black'
         text3.style.color = 'black'
     }
-}
+} 
