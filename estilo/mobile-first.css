@@ -6,11 +6,12 @@
     }
     
     html, body {
-        margin: 0 ;
+        margin: 0;
         padding: 0;
         border: 0;
+        width: 100%;
+        height: 100%;
         font-family: 'Raleway', sans-serif;
-        
     }
 
     .title {
@@ -45,19 +46,45 @@
         border-radius: 50px;
         background-color: #5050ee;
         border: 1px solid black;
-        background-image: url("seta.png");
         text-decoration: none;
     }
     .btn::after {
         content: "🠕";
-        background-image: url("seta.png");
-        font-size: 32px;
+        font-size: 40px;
         font-weight: bold;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         transition: margin-top 250ms;
     }
     .btn:hover::after {
         margin-top:-8px;
+    }
+
+    @keyframes load {       
+        to{transform: rotate(360deg);}
+    }
+
+    .pre {
+        width: 100px;
+        height: 100px;
+        background-image: url('/imagens/load_blue.png');
+        background-position: center;
+        background-size: contain;
+
+        animation: load 2s infinite linear;
+    }
+
+    .box-load {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content{
+        display: none
     }
 
 /*---------------------------------- CABEÇALHO ---------------------------------------*/

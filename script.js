@@ -1,28 +1,62 @@
 function darkMode() {
-    
+    //Modo dark-mode da gambiarra, logo atualizo!
     let checkBox = document.getElementById('darkmode-button')
-    let teste = document.getElementById('pgmode')
-    let teste1 = document.getElementById('pgmode1')
-    let text = document.getElementById('text')
-    let text1 = document.getElementById('text1')
-    let text2 = document.getElementById('title-about_me')
-    let text3 = document.getElementById('about_text')
-
+    let titulos = document.getElementsByClassName('title')
+    let title1 = titulos[0]
+    let title2 = titulos[1]
+    let title3 = titulos[2]
+    let elements = document.getElementsByClassName('dark-mode')
+    let body = elements[0]
+    let header = elements[1]
+    let h1 = elements[2]
+    let h2 = elements[3]
+    let h3 = elements[4]
+    let sub = elements[5]
+    let cel = elements[6]
+    let mail = elements[7]
+    let locale = elements[8]
+    let contacts = document.getElementsByClassName('funcao')
+    let tel = contacts[0]
+    let email = contacts[1]
+    let local = contacts[2]
 
     if (checkBox.checked == true){
-        teste.style.background = '#0f0f0f'
-        teste1.style.background = '#0f0f0f'
-        text.style.color = 'white'
-        text1.style.color = 'white'
-        text2.style.color = 'white'
-        text3.style.color = 'white'
-
+        body.style.background = '#0f0f0f'  
+        header.style.background = '#0f0f0f'   
+        h1.style.color = 'white'   
+        h2.style.color = 'white' 
+        h3.style.color = 'white'  
+        title1.style.color = 'white'  
+        title2.style.color = 'white' 
+        title3.style.color = 'white' 
+        sub.style.color = 'white' 
+        tel.style.color = 'white' 
+        email.style.color = 'white' 
+        local.style.color = 'white' 
+        cel.style.color = 'white' 
+        mail.style.color = 'white'
+        locale.style.color = 'white'  
     } else {
-        teste.style.background = 'white'
-        teste1.style.background = 'white'
-        text.style.color = 'black'
-        text1.style.color = 'black'
-        text2.style.color = 'black'
-        text3.style.color = 'black'
+        body.style.background = 'white'
+        header.style.background = 'white'
+        h1.style.color = 'black' 
+        h2.style.color = 'black'  
+        h3.style.color = 'black' 
+        title1.style.color = 'black'  
+        title2.style.color = 'black' 
+        title3.style.color = 'black'
+        sub.style.color = 'black'  
+        tel.style.color = 'black' 
+        email.style.color = 'black' 
+        local.style.color = 'black'
+        locale.style.color = 'black'  
+        cel.style.color = 'black' 
+        mail.style.color = 'black'
+         //Modo dark-mode da gambiarra, logo atualizo!
     }
 } 
+
+function loading() {
+    document.getElementsByClassName('box-load')[0].style.display = 'none'
+    document.getElementsByClassName('content')[0].style.display = 'block'
+}
