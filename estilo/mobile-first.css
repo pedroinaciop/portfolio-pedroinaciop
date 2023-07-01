@@ -3,6 +3,7 @@
     :root {
         --color1: #5050ee;
         --color2: #ffffff;
+        --color3: #2828a4;
     }
     
     html, body {
@@ -31,7 +32,7 @@
     }
 
     body::-webkit-scrollbar-thumb {
-        background-color: #5050ee;
+        background-color: var(--color1);
     }
 
     .btn {
@@ -44,7 +45,7 @@
         width: 50px;
         height: 50px;
         border-radius: 50px;
-        background-color: #5050ee;
+        background-color: var(--color1);
         text-decoration: none;
         z-index: 3;
     }
@@ -120,7 +121,7 @@
     }
 
     nav a:hover {
-        color: #2828a4;
+        color: var(--color3);
         text-decoration: none;
     }
 
@@ -131,7 +132,7 @@
         display: none;
     }
 
-    label {
+    label#darkmode-button {
         width: 70px;
         height: 30px;
         position: relative;
@@ -143,7 +144,7 @@
         transition: 0.3s;
     }
 
-    label:after {
+    label#darkmode-button:after {
         content: "";
         width: 26px;
         height: 26px;
@@ -156,25 +157,25 @@
         transition: 0.3s;
     }
 
-    input {
+    input#darkmode-button {
         width: 0;
         height: 0;
         visibility: hidden;
     }
 
-    input:checked + label {
+    input#darkmode-button:checked + label {
         background: #242424;
     }
 
-    input:checked + label:after {
+    input#darkmode-button:checked + label:after {
         left: 68px;
         transform: translate(-100%);
         background: linear-gradient(180deg, #777, #3a3a3a);
     }
 
-    label:active:after {
+    label#darkmode-button:active:after {
         width: 40px;
-    }
+    } 
 
 /*---------------------------------- MENU ---------------------------------------*/
 
@@ -220,7 +221,7 @@
     }
     
     .redes a:hover {
-        color: #2828a4;
+        color: var(--color3);
     }
 
 /*---------------------------------- SOBRE MIM ---------------------------------------*/
@@ -239,10 +240,39 @@
     }
 
     div#container_2 img {
-        position: relative;
-        top: 30px;
-        left: 60px;
         height: 120px;
+    }
+
+    .skills {
+        display: inline-flex;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .skills:hover {
+        box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.357);
+    }
+
+    .estrelas {
+        width: 150px;
+    }
+
+    .estrelas input[type=radio] {
+        display: none;
+    }
+
+    .estrelas label i.fa:before {
+        content:'\f005';
+        color: #FC0;
+    }
+    
+    .estrelas input[type=radio]:checked ~ label i.fa:before {
+        color: #CCC;
+    }
+
+    .fa {
+        position: relative;
+          
     }
 
 /*---------------------------------- PROJETOS ---------------------------------------*/
@@ -318,5 +348,5 @@
     }
 
     div#redes_footer a:hover{
-        color: #2828a4;
+        color: var(--color3);
     }
