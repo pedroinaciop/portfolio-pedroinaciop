@@ -239,14 +239,27 @@
         font-size: .9em;
     }
 
+    div#container_2 {
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
     div#container_2 img {
         height: 120px;
     }
 
     .skills {
-        display: inline-flex;
-        padding: 20px;
+        display: inline-block;
+        width: 200px;
+        height: 200px;
         border-radius: 5px;
+    }
+    
+    .skills img {
+        margin: auto;
+        display: block;
+        padding-top: 15px;
     }
 
     .skills:hover {
@@ -254,13 +267,20 @@
     }
 
     .estrelas {
-        width: 150px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
     }
 
     .estrelas input[type=radio] {
         display: none;
     }
-
+    
+    .estrelas label i.fa {
+        font-size: 1.2em;
+        padding: 2px;
+    }
+      
     .estrelas label i.fa:before {
         content:'\f005';
         color: #FC0;
@@ -269,12 +289,7 @@
     .estrelas input[type=radio]:checked ~ label i.fa:before {
         color: #CCC;
     }
-
-    .fa {
-        position: relative;
-          
-    }
-
+   
 /*---------------------------------- PROJETOS ---------------------------------------*/
 
     div#projects {
