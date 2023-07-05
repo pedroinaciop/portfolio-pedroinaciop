@@ -236,7 +236,7 @@
 
     div#about_me p {
         text-align: justify;
-        font-size: .9em;
+        font-size: 1.1em;
     }
 
     div#container_2 {
@@ -302,21 +302,13 @@
    
 /*---------------------------------- PROJETOS ---------------------------------------*/
 
-    div#projects {
-        margin-top: 100px;
-        margin-bottom: 100px;
+    .slider {
+        margin: 0 auto;
+        width: 800px;
+        height: 400px;
+        overflow: hidden;
     }
 
-    h1#title_pj {
-        padding: 15px;
-    }
-
-    .projects {
-        display: block;
-        margin: auto;
-        height: 150px;
-        padding-top: 10px;
-    }
 
 /*---------------------------------- CONTATOS ---------------------------------------*/
 

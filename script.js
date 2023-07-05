@@ -19,6 +19,7 @@ function darkMode() {
     let tel = contacts[0]
     let email = contacts[1]
     let local = contacts[2]
+    
 
     if (checkBox.checked == true) {
         body.style.background = '#0f0f0f'
@@ -36,6 +37,15 @@ function darkMode() {
         cel.style.color = 'white'
         mail.style.color = 'white'
         locale.style.color = 'white'
+        var java = document.querySelector('#html-img')
+        java.setAttribute('src','imagens/html-dark-mode.png')
+
+        var css = document.querySelector('#css-img')
+        css.setAttribute('src','imagens/css-darkmode.png')
+
+        var js = document.querySelector('#js-img')
+        js.setAttribute('src','imagens/js-dark-mode.png')
+
     } else {
         body.style.background = 'white'
         header.style.background = 'white'
@@ -52,6 +62,14 @@ function darkMode() {
         locale.style.color = 'black'
         cel.style.color = 'black'
         mail.style.color = 'black'
+        var java = document.querySelector('#html-img')
+        java.setAttribute('src','imagens/html.png')
+
+        var css = document.querySelector('#css-img')
+        css.setAttribute('src','imagens/css.png')
+
+        var js = document.querySelector('#js-img')
+        js.setAttribute('src','imagens/js.png')
         //Modo dark-mode da gambiarra, logo atualizo!
     }
 }
@@ -92,14 +110,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 requestAnimationFrame(scrollToTopAnimation);
             }
         }
-
+        
         function easeInOutCubic(t, b, c, d) {
             t /= d / 2;
             if (t < 1) return c / 2 * t * t * t + b;
             t -= 2;
             return c / 2 * (t * t * t + 2) + b;
         }
-
         requestAnimationFrame(scrollToTopAnimation);
     }
 });

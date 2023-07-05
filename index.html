@@ -75,12 +75,14 @@
                 <h1 class="title">Sobre mim</h1>
                 <div class="dark-mode">
                     <p id="about_text">
-                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam debitis cumque adipisci ullam illo et sequi quia, sed aliquid. Molestiae pariatur enim necessitatibus sapiente quam. Sint repellendus laborum in esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quidem quibusdam dicta, aliquam magnam quae molestiae alias, ducimus voluptas voluptatem sequi possimus natus libero. Ratione reiciendis perferendis necessitatibus iusto aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo qui a. Libero quia ea earum quisquam magni velit sint qui eaque, laudantium explicabo soluta ipsam provident asperiores itaque enim?</p>
+                        Cursando Ciência da Computação na <strong>FMU</strong> e se especializando na <strong>Alura</strong>, apaixonado por tecnologia, design e conhecimento.
+                        No momento, buscando e se preparando para minha primeira oportunidade na carreira como desenvolvedor. <br>
+                        Minhas metas atualmente são, melhorar meus conhecimentos como dev e falante da língua inglesa.
                     </p>
                 </div>
                 <div id="container_2" >
                     <div class="skills">               
-                        <img src="imagens/html.png" alt="">   
+                        <img src="imagens/html.png" alt="" id="html-img">   
                         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
                             <div class="estrelas">
                                 <input type="radio" id="cm_star-empty" name="html" value=""/>
@@ -97,7 +99,7 @@
                             </div>
                     </div>
                     <div class="skills">               
-                        <img src="imagens/css.png" alt="">   
+                        <img src="imagens/css.png" alt="" id="css-img">   
                         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
                             <div class="estrelas">
                                 <input type="radio" id="cm_star-empty" name="css" value=""/>
@@ -114,7 +116,7 @@
                             </div>
                     </div>
                     <div class="skills">               
-                        <img src="imagens/js.png" alt="">   
+                        <img src="imagens/js.png" alt="" id="js-img">   
                         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
                             <div class="estrelas">
                                 <input type="radio" id="cm_star-empty" name="js" value=""/>
@@ -134,18 +136,37 @@
                 </div>
             </div>
 
-            <div id="projects">
-                <h1 id="title_pj" class="title">Projetos</h1>
-                <div id="img_projects">
-                    <a href="https://pedroinaciop.github.io/projeto-site_zndental/" target="_blank">
-                        <img class="projects" src="imagens/img_loja.png" alt=""></a>
-                    <a href="https://pedroinaciop.github.io/projeto-cordel/" target="_blank">
-                        <img class="projects" src="imagens/img_cordel.png" alt=""></a>
-                    <a href="https://pedroinaciop.github.io/projeto-android/" target="_blank">
-                        <img class="projects" src="imagens/img_android.png" alt=""></a>
-                    <a href="#">
-                        <img class="projects" src="imagens/img_andamento.png" alt="">
-                    </a>
+            <div class="slider">
+                <h1 class="title" id="projects">Projetos</h1>
+                <div class="slides">                   
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+                    <div class=" slide first">
+                        <img src="imagens/img_loja.png" alt="Imagem 1">
+                        <p>E-commerce</p>
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/img_android.png" alt="Imagem 2">
+                        <p>E-commerce</p>
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/img_cordel.png" alt="Imagem 3">
+                        <p>E-commerce</p>
+                    </div>
+                    
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
                 </div>
             </div>
 
