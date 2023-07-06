@@ -5,6 +5,10 @@
         --color2: #ffffff;
         --color3: #2828a4;
     }
+
+    body {
+        overflow-x: hidden;
+    }
     
     html, body {
         margin: 0;
@@ -13,6 +17,7 @@
         width: 100%;
         height: 100%;
         font-family: 'Raleway', sans-serif;
+        
     }
 
     .title {
@@ -93,7 +98,7 @@
         display: none
     }
 
-/*---------------------------------- CABEÇALHO ---------------------------------------*/
+/*---------------------------------- CABEÇALHO -------------------------------------*/
     
     header {
         background-color: var(--color2);
@@ -224,7 +229,7 @@
         color: var(--color3);
     }
 
-/*---------------------------------- SOBRE MIM ---------------------------------------*/
+/*---------------------------------- SOBRE MIM -------------------------------------*/
 
     div#about_me {
         margin: 10px;
@@ -302,11 +307,51 @@
    
 /*---------------------------------- PROJETOS ---------------------------------------*/
 
-    .slider {
-        margin: 0 auto;
-        width: 800px;
-        height: 400px;
-        overflow: hidden;
+    .projects h1 {
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+
+    .img_projects {
+        display: inline-flex;
+        position: relative;
+        right: 240px;
+        padding: 80px 0px 200px 0px;
+    }
+
+    .img_projects img {   
+        margin-right: 10px;
+    }   
+
+    img#img_1:hover {
+        cursor: pointer;
+        filter: grayscale(100%) blur(.7px);
+        
+    }
+
+    img#img_2:hover {
+        cursor: pointer;
+        filter: grayscale(100%) blur(.7px);
+    }
+
+    img#img_3:hover {
+        cursor: pointer;
+        filter: grayscale(100%) blur(1px);  
+    }
+
+    .details {
+        position: absolute;
+        width: 4px;
+        top: 30%;
+        left: 18%;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mini-languages img {
+        width: 50px;
     }
 
 
@@ -314,15 +359,11 @@
 
     div#contacts {
         height: 400px;
+        text-align: center;  
     }
 
     p#subtitle {
         text-align: center;
-    }
-
-    div#contacts {
-        text-align: center;
-        
     }
 
     .funcao {

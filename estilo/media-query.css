@@ -69,106 +69,21 @@
 
 /*---------------------------------- PROJETOS ---------------------------------------*/
 
-    .slider {
-       
+    .projects h1 {
+        padding-top: 90px;
+        padding-bottom: 20px;
     }
 
-    .slides {
-        width: 400%;
-        height: 400px;
-        display: flex;
-    }
-
-    .first img{
-        width: 400px;
-        display: block;
-        margin: auto;
-    }
-
-    .slides input {
-        display: none;
-    }
-
-    .slide {
-        width: 25%;
+    .img_projects {
+        display: inline-flex;
         position: relative;
+        right: 240px;
+        padding: 80px 0px 200px 0px;
     }
 
-    .slide img {
-        width: 730px;
+    .img_projects img {
+        margin-right: 10px;
     }
-
-    .manual-navigation {
-        position: absolute;
-        width: 800px;
-        margin-top: -105px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .manual-btn {
-        position: relative;
-        border: 1px solid black;
-        padding: 5px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: .5s;
-    }
-
-    .manual-btn:not(:last-child) {
-        margin-right: 40px;
-    }
-
-    .manual-btn:hover {
-        background-color: black;
-    }
-
-    #radio1:checked ~ .first {
-        margin-left: 0;
-    }
-
-    #radio2:checked ~ .first {
-        margin-left: -25%;
-    }
-
-    #radio3:checked ~ .first {
-        margin-left: -50%;
-    }
-
-    .navigation-auto div {
-        padding: 6px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 1s;
-    }
-
-    .navigation-auto {
-        position: absolute;
-        width: 800px;
-        margin-top: 295px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .navigation-auto div:not(:Last-child){
-        margin-right: 40px;
-    }
-
-    #radio1:checked ~ .navigation-auto .auto-btn1 {
-        background-color: black;
-    }
-
-    #radio2:checked ~ .navigation-auto .auto-btn2 {
-        background-color: black;
-    }
-
-    #radio3:checked ~ .navigation-auto .auto-btn3 {
-        background-color: black;
-    }
-
-
-
-
 
 
 /*---------------------------------- CONTATOS ---------------------------------------*/
@@ -225,5 +140,4 @@
         left: 900px;
         width: 100px;
     }
-
 }   
