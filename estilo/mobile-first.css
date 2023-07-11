@@ -26,6 +26,10 @@
         text-align: center;
     }
 
+    p.subtitle {
+        text-align: center;
+    }
+
     body::-webkit-scrollbar {
         width: 8px;
     }
@@ -230,17 +234,14 @@
 
 /*---------------------------------- SOBRE MIM -------------------------------------*/
 
-    div#about_me {
-        margin: 10px;
-    }
-    
     div#about_me h1 {
-        padding: 150px 20px 20px 20px;
+        padding: 100px 20px 0px 20px;
     }
 
     div#about_me p {
         text-align: justify;
         font-size: 1.1em;
+        padding: 0px 15px;
     }
 
     div#container_2 {
@@ -314,12 +315,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 80px 0px 200px 0px;
+        padding: 40px 0px 125px 0px;
     }
 
     .projects h1 {
         padding-top: 90px;
-        padding-bottom: 10px;
     } 
 
     .img_projects img { 
@@ -343,9 +343,6 @@
         text-align: center;  
     }
 
-    p#subtitle {
-        text-align: center;
-    }
 
     .funcao {
         display: none;
