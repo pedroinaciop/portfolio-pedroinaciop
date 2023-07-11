@@ -134,14 +134,13 @@
     }
 
     div#mode {
-        position: absolute;
-        right: 200px;
+        position: absolute; 
+        right: 20px;
         top: -10px;
-        display: none;
     }
 
     label#darkmode-button {
-        width: 70px;
+        width: 30px;
         height: 30px;
         position: relative;
         display: block;
@@ -176,14 +175,8 @@
     }
 
     input#darkmode-button:checked + label:after {
-        left: 68px;
-        transform: translate(-100%);
         background: linear-gradient(180deg, #777, #3a3a3a);
     }
-
-    label#darkmode-button:active:after {
-        width: 40px;
-    } 
 
 /*---------------------------------- MENU ---------------------------------------*/
 
