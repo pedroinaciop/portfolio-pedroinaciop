@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +8,6 @@
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="estilo/mobile-first.css">
     <link rel="stylesheet" href="estilo/media-query.css">
@@ -21,9 +19,9 @@
 </div>
 
 <div class="content">
-<body class="dark-mode" onload="loading()">
+<body onload="loading()">
 
-        <header class="dark-mode">  
+        <header>  
             <div id="mode">
                 <input type="checkbox" id="darkmode-button" onclick="darkMode()">
                 <label for="darkmode-button" id="darkmode-button"></label>
@@ -38,20 +36,22 @@
             </nav>
         </header>
 
+        <!---->
         <section></section>
         <a href="#" class="btn" onclick="toUp()"></a>
+        <!---->
 
         <main>
-            <div class="home" id="home">
-                <div class="right-menu">
+            <section class="home" id="home">
+                <article class="right-menu">
                     <img class="photo" src="imagens/minha_img.jpg" alt="">
-                </div>
+                </article>
 
-                <div class="left-menu">
-                    <h1 class="dark-mode"><span class="material-symbols-outlined" id="destaque">waving_hand</span> Olá,<br>
+                <article class="left-menu">
+                    <h1><span class="material-symbols-outlined" id="destaque">waving_hand</span> Olá,<br>
                         meu nome é <span class="destaque">Pedro Inácio</span>
                         </span>Programador <span class="destaque">Front-End</span></h1>
-                    <p class="dark-mode">Sou um Desenvolvedor 100% apaixona por<strong> Front-End! </strong>
+                    <p>Sou um Desenvolvedor 100% apaixona por<strong> Front-End! </strong>
                         <br> Eu amo trabalhar com tecnologias como <strong>HTML, CSS e JavaScript</strong>,
                         mas também atuo com o <strong>Back-End.</strong>
                     </p>
@@ -69,20 +69,21 @@
                             </svg>
                         </a>
                     </div>
-                </div>
-            </div>
+                </article>
+            </section>
 
-            <div id="about_me">
+            <section id="about_me">
                 <h1 class="title">Sobre mim</h1>
-                <p class="subtitle" class="dark-mode" style="text-align: center;">Um pouco sobre mim e habilidades!</p><br>
-                <div class="dark-mode">
-                    <p id="about_text">
+                <p class="subtitle" style="text-align: center;">Um pouco sobre mim e habilidades!</p><br>
+                
+                <article>
+                    <p class="about_text">
                         Cursando Ciência da Computação na <strong>FMU</strong> e se especializando na <strong>Alura</strong>, apaixonado por tecnologia, design e conhecimento.
                         No momento, buscando e se preparando para minha primeira oportunidade na carreira como desenvolvedor. <br>
                         Minhas metas atualmente são melhorar meus conhecimentos como dev e falante da língua inglesa.
                     </p>
-                </div>
-                <div id="container_2" >
+                </article>
+                <article class="about_skills">
                     <div class="skills">               
                         <img src="imagens/html.png" alt="Imagem/Logo HTML">   
                         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -134,12 +135,13 @@
                                 <input type="radio" id="cm_star-15" name="js" value="15"/>
                             </div>
                     </div>         
-                </div>
-            </div>
+                </article>
+            </section>
 
-            <div class="projects">
+            <section id="projects">
                     <h1 class="title" id="projects">Projetos</h1>
-                    <p class="subtitle" class="dark-mode">Meu pequenos projetos!</p><br>
+                    <p class="subtitle">Meu pequenos projetos!</p><br>
+
                         <div class="img_projects">
                             <a href="https://pedroinaciop.github.io/projeto-site_zndental/" target="_blank">
                                 <img src="imagens/img_loja.png" alt="Imagem 1" class="interacao_imagem">
@@ -150,55 +152,53 @@
                             <a href="https://pedroinaciop.github.io/projeto-cordel/" target="_blank">
                                 <img src="imagens/img_cordel.png" alt="Imagem 3"class="interacao_imagem">
                             </a>
-                </div>
-            </div>
+                        </div>
+            </section>
 
-                <div class="manual-navigation">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                </div>
-            </div>
 
-            <div id="contact">
+            <section id="contact">
                 <h1 class="title">Contato</h1>
-                <p class="subtitle" class="dark-mode">Entre em contato comigo!</p><br>
+                <p class="subtitle">Entre em contato comigo!</p><br>
+               
                 <div id="contacts">
                     <span class="material-symbols-outlined" id="icons_contatos">call</span>
                     <p class="funcao">Me ligue!</p>
-                    <p class="dark-mode">+55 (11) 95609-3164</p><br>
+                    <p>+55 (11) 95609-3164</p><br>
                     <span class="material-symbols-outlined" id="icons_contatos">mail</span>
                     <p class="funcao">Email</p>
-                    <p class="dark-mode">inaciopedro2004@gmail.com</p><br>
+                    <p>inaciopedro2004@gmail.com</p><br>
                     <span class="material-symbols-outlined" id="icons_contatos">location_city</span>
                     <p class="funcao">Localização</p>
-                    <p class="dark-mode">São Paulo - SP</p>
+                    <p>São Paulo - SP</p>
                 </div>
-            </div>
+            </section>
+       
         </main>
 
         <footer>
-            <div id="start_header">
+            <div class="start_footer">
                 <h1>Pedro Inácio</h1>
                 <h3>Desenvolvedor Front-End</h3>
             </div>
-            <div id="redes_footer">
-                <a class="footer_social" href="https://github.com/pedroinaciop" target="_blank">
+            <section class="redes_footer">
+                <a href="https://github.com/pedroinaciop" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                         <path fill="currentColor"
                             d="M10.07 20.503a1 1 0 0 0-1.18-.983c-1.31.24-2.963.276-3.402-.958a5.708 5.708 0 0 0-1.837-2.415a1.2 1.2 0 0 1-.167-.11a1 1 0 0 0-.93-.645h-.005a1 1 0 0 0-1 .995c-.004.815.81 1.338 1.141 1.514a4.44 4.44 0 0 1 .924 1.36c.365 1.023 1.423 2.576 4.466 2.376l.003.098l.004.268a1 1 0 0 0 2 0l-.005-.318c-.005-.19-.012-.464-.012-1.182ZM20.737 5.377a5.39 5.39 0 0 0 .09-.42a6.278 6.278 0 0 0-.408-3.293a1.002 1.002 0 0 0-.615-.58c-.356-.12-1.67-.357-4.184 1.25a13.87 13.87 0 0 0-6.354 0C6.762.75 5.455.966 5.102 1.079a.997.997 0 0 0-.631.584a6.3 6.3 0 0 0-.404 3.357c.025.127.051.246.079.354a6.27 6.27 0 0 0-1.256 3.83a8.422 8.422 0 0 0 .043.921c.334 4.603 3.334 5.984 5.424 6.459a4.591 4.591 0 0 0-.118.4a1 1 0 0 0 1.942.479a1.678 1.678 0 0 1 .468-.878a1 1 0 0 0-.546-1.745c-3.454-.395-4.954-1.802-5.18-4.899a6.61 6.61 0 0 1-.033-.738a4.258 4.258 0 0 1 .92-2.713a3.022 3.022 0 0 1 .195-.231a1 1 0 0 0 .188-1.025a3.388 3.388 0 0 1-.155-.555a4.094 4.094 0 0 1 .079-1.616a7.543 7.543 0 0 1 2.415 1.18a1.009 1.009 0 0 0 .827.133a11.777 11.777 0 0 1 6.173.001a1.005 1.005 0 0 0 .83-.138a7.572 7.572 0 0 1 2.406-1.19a4.04 4.04 0 0 1 .087 1.578a3.205 3.205 0 0 1-.169.607a1 1 0 0 0 .188 1.025c.078.087.155.18.224.268A4.122 4.122 0 0 1 20 9.203a7.039 7.039 0 0 1-.038.777c-.22 3.056-1.725 4.464-5.195 4.86a1 1 0 0 0-.546 1.746a1.63 1.63 0 0 1 .466.908a3.06 3.06 0 0 1 .093.82v2.333c-.01.648-.01 1.133-.01 1.356a1 1 0 1 0 2 0c0-.217 0-.692.01-1.34v-2.35a4.881 4.881 0 0 0-.155-1.311a4.256 4.256 0 0 0-.116-.416a6.513 6.513 0 0 0 5.445-6.424A8.697 8.697 0 0 0 22 9.203a6.13 6.13 0 0 0-1.263-3.826Z" />
                     </svg>
                 </a>
-                <a class="footer_social" href="https://www.linkedin.com/in/pedroinaciop/" target="_blank">
+                <a href="https://www.linkedin.com/in/pedroinaciop/" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 14 14">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             d="M3.54 1.71a1.33 1.33 0 0 1-1.3 1.34A1.36 1.36 0 0 1 .93 1.71A1.34 1.34 0 0 1 2.24.43a1.33 1.33 0 0 1 1.3 1.28ZM1.07 5.43c0-.77.49-.65 1.17-.65s1.16-.12 1.16.65v7.5c0 .78-.49.62-1.16.62s-1.17.16-1.17-.62Zm4.35 0c0-.43.16-.59.41-.64s1.11 0 1.41 0s.42.49.41.86a2.51 2.51 0 0 1 2.24-1a3 3 0 0 1 3.18 3.13v5.12c0 .78-.48.62-1.16.62s-1.16.16-1.16-.62v-4a1.44 1.44 0 0 0-1.52-1.56a1.45 1.45 0 0 0-1.48 1.59v4c0 .78-.49.62-1.17.62s-1.16.16-1.16-.62Z" />
                     </svg>
                 </a>
-            </div>
+            </section>
             <p>©Pedro Inácio (@pedroinaciop) 2023 - Todos os direitos reservados.</p>
         </footer>
-</div>
+        
+</div> <!-- DIV LOADING-->
+
 <script src="script.js"></script>
 </body>
 </html>

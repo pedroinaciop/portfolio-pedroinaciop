@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 
     :root {
         --color1: #5050ee;
@@ -18,11 +19,9 @@
         font-family: 'Raleway', sans-serif;
     }
 
-    main {
-        padding-top: 50px;
-    }
-
     .title {
+        padding: 90px 0px  0px 0px;
+        font-size: 26px;
         text-align: center;
     }
 
@@ -186,7 +185,7 @@
 
     .photo {
         position: relative;
-        top: 60px;
+        top: 100px;
         left: 80px;
         width: 200px;
         border-radius: 200px; 
@@ -199,12 +198,12 @@
 
     .left-menu h1 {
         font-size: 1.5em;
-        margin-left: 30px;
+        padding: 0px 30px;
     }
 
     .left-menu p {
         font-size: .9em;
-        margin-left: 30px;
+        padding: 0px 30px;
     }
 
     .destaque, #destaque {
@@ -227,23 +226,24 @@
 
 /*---------------------------------- SOBRE MIM -------------------------------------*/
 
-    div#about_me h1 {
+    .about_me h1 {
+        background-color: #242424;
         padding: 100px 20px 0px 20px;
     }
 
-    div#about_me p {
+    .about_text {
         text-align: justify;
         font-size: 1.1em;
         padding: 0px 15px;
     }
 
-    div#container_2 {
+    .about_skills {
         padding: 40px;
         display: flex;
         justify-content: center;
     }
 
-    div#container_2 img {
+    .about_skills img {
         height: 120px;
     }
 
@@ -336,7 +336,6 @@
         text-align: center;  
     }
 
-
     .funcao {
         display: none;
     }
@@ -352,7 +351,7 @@
         height: 220px;
     }
 
-    div#start_header {
+    .start_footer {
         padding: 25px;
     }
 
@@ -368,14 +367,11 @@
         font-size: .9em;
     }
 
-    div#redes_footer {
+    .redes_footer a {
         text-align: center;
-    }
-
-    div#redes_footer a {
         color: var(--color2);
     }
 
-    div#redes_footer a:hover{
+    .redes_footer a:hover {
         color: var(--color3);
     }
