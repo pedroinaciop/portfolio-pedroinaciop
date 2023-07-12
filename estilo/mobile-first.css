@@ -142,7 +142,7 @@
         width: 30px;
         height: 30px;
         position: relative;
-        display: block;
+        display: none; /* !_!_!_!_! */
         background: #ebebeb;
         border-radius: 20px;
         box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
@@ -347,24 +347,27 @@
 /*---------------------------------- FOOTER ---------------------------------------*/
 
     footer {
+        height: 180px;
         background-color: var(--color1);
-        height: 220px;
-    }
-
-    .start_footer {
-        padding: 25px;
-    }
-
-    footer h1, h3 {
         color: var(--color2);
-        text-align: center;
+    }
+
+    footer h1 {     
+        font-size: 26px;
         margin: 0;    
     }
 
+    footer h3 {
+        margin: 0;
+    }
+
     footer p {
-        color: var(--color2);
         text-align: center;
-        font-size: .9em;
+        font-size: 10px;
+    }
+
+    .redes_footer {
+        box-sizing: border-box
     }
 
     .redes_footer a {
@@ -375,3 +378,12 @@
     .redes_footer a:hover {
         color: var(--color3);
     }
+
+    .descricao {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        padding: 20px;
+    }
+   
+

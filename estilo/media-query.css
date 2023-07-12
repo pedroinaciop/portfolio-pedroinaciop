@@ -119,8 +119,6 @@
         padding-bottom: 20px;
     }
 
-    .img_projects {
-    }
 
     .img_projects img {
         margin-right: 10px;
@@ -155,30 +153,42 @@
 /*---------------------------------- FOOTER ---------------------------------------*/
 
     footer {
-        height: 150px;
+        height: 180px;
+        background-color: var(--color1);
+        color: var(--color2);
     }
 
-    footer h1 {
-        position: relative;
-        right: 180px;    
+    footer h1 {     
+        font-size: 26px;
+        margin: 0;    
     }
 
     footer h3 {
-        position: relative;
-        right: 160px;   
+        margin: 0;
     }
 
     footer p {
-        color: var(--color2);
-        position: relative;
-        top: -50px;
         text-align: center;
+        font-size: 10px;
     }
 
-    div#redes_footer {
-        position: relative;
-        top: -80px;
-        left: 900px;
-        width: 100px;
+    .redes_footer {
+        box-sizing: border-box
+    }
+
+    .redes_footer a {
+        text-align: center;
+        color: var(--color2);
+    }
+
+    .redes_footer a:hover {
+        color: var(--color3);
+    }
+
+    .descricao {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        padding: 20px;
     }
 }   
