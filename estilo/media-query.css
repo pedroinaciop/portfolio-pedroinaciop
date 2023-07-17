@@ -106,23 +106,30 @@
 
     div#about_me {
         display: block;
-        margin: auto;
-        height: 650px;
-        width: 730px;
-        padding-top: 50px;  
+        margin: auto; 
     }
 
-/*---------------------------------- PROJETOS ---------------------------------------*/
+/*---------------------------------- PROJETOS ---------------------------------------*/  
 
-    .projects h1 {
-        padding-top: 90px;
-        padding-bottom: 20px;
+    .img_projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px 0px 125px 0px;
     }
 
-
-    .img_projects img {
-        margin-right: 10px;
+    .interacao_imagem:hover {
+        height: 300px;
+        width: 420px;
+        cursor: pointer;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.467);
     }
+
+    .img_projects img { 
+        height: 280px;
+        width: 400px;  
+        margin: 10px;
+    }  
 
 
 /*---------------------------------- CONTATOS ---------------------------------------*/
@@ -130,14 +137,12 @@
     div#contacts {
         display: block;
         margin: auto;
-        height: 400px;
-        width: 700px;
+        height: 320px;  
         text-align: left;   
     }
 
-    p#subtitle {
-        text-align: center;
-        margin: -15px;
+    div#contacts p {
+        margin: 0;
     }
 
     .funcao {
@@ -146,7 +151,7 @@
 
     span#icons_contatos {
         position: relative;
-        top: 75px;
+        top: 25px;
         right: 30px;
     }
 
@@ -187,8 +192,7 @@
 
     .descricao {
         display: flex;
-        align-items: center;
-        justify-content: space-between; 
-        padding: 20px;
+        justify-content: space-evenly;
+        padding: 30px;
     }
 }   
