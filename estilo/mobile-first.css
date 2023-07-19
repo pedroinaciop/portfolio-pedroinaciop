@@ -21,7 +21,7 @@
 
     .title {
         padding: 90px 0px  0px 0px;
-        font-size: 26px;
+        font-size: 1.63rem;
         text-align: center;
     }
 
@@ -61,7 +61,7 @@
         content: "🠕";
         display: flex;
         justify-content: center;
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: bold;
         color: rgb(255, 255, 255);
         cursor: pointer;
@@ -117,7 +117,7 @@
 
     nav li {
         display: inline;
-        font-size: 13px;
+        font-size: 0.812rem;
         padding: 3px;
         margin-left: 15px;
     }
@@ -197,12 +197,12 @@
     }
 
     .left-menu h1 {
-        font-size: 1.5em;
+        font-size: 1.5rem;
         padding: 0px 30px;
     }
 
     .left-menu p {
-        font-size: .9em;
+        font-size: 0.9rem;
         padding: 0px 30px;
     }
 
@@ -233,7 +233,7 @@
 
     .about_text {
         text-align: justify;
-        font-size: 1.1em;
+        font-size: 1.1rem;
         padding: 0px 15px;
     }
 
@@ -271,7 +271,7 @@
     }
     
     .estrelas label i.fa {
-        font-size: 1.2em;
+        font-size: 1.2rem;
         padding: 2px;
     }
 
@@ -285,7 +285,7 @@
     }
 
     .estrelas label i.fa:hover {
-        font-size: 1.5em;
+        font-size: 1.5rem;
         animation: loading 2.5s;
     }
       
@@ -353,7 +353,7 @@
     }
 
     footer h1 {     
-        font-size: 26px;
+        font-size: 1.63rem;
         margin: 0;    
     }
 
@@ -363,7 +363,7 @@
 
     footer p {
         text-align: center;
-        font-size: 10px;
+        font-size: 0.625rem;
     }
 
     .redes_footer {
