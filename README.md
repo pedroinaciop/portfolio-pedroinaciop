@@ -14,7 +14,7 @@ Esse portfólio foi feito afim de me apresentar e apresentar alguns projetos pes
 ![Web 1](https://github.com/pedroinaciop/portfolio-pedroinaciop/blob/main/imagens/web-design-1.png)
 
 # Tecnologias utilizadas
-[![Minhas Habilidades](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+[![Minhas Habilidades](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 
 # Autor
 
