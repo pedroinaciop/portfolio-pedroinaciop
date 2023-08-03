@@ -57,9 +57,11 @@
                 </article>
             </section>
 
-            <section id="about_me" class="secao">
-                <h1 class="title">Sobre mim</h1>
-                <p class="subtitle" style="text-align: center;">Um pouco sobre mim e habilidades!</p><br>
+            <section id="about_me" class="secao about_me">
+                <div>
+                    <h1 class="title">Sobre mim</h1>
+                    <p class="subtitle">Um pouco sobre mim e habilidades!</p><br>
+                </div>
                 <article>
                     <p class="about_text">
                         Cursando Ciência da Computação na <strong>FMU</strong> e se especializando na <strong>Alura</strong>, apaixonado por tecnologia, design e conhecimento.
@@ -122,10 +124,11 @@
                 </article>
             </section>
 
-            <section id="projects" class="secao">
-                <h1 class="title" id="projects">Projetos</h1>
-                <p class="subtitle">Meus projetos pessoais!</p><br>
-                   
+            <section id="projects" class="secao projects">
+                <div>
+                    <h1 id="projects" class="title title__projects" >Projetos</h1>
+                    <p class="subtitle">Meus projetos pessoais!</p><br>
+                </div>
                 <div class="swiper">
                         <div class="swiper-pagination"></div>
                         <div class="swiper-wrapper">
@@ -133,15 +136,25 @@
                                 <img src="imagens/img_android.png" alt="" class="projects__imagem">
                                 <div class="projects__descrição">
                                     <h1>História do Android</h1>
-                                    <p>Projeto com HTML e CSS que te apresenta a história do sistema operacional mais famoso no mundo</p>
+                                    <p class="projects__descrição__texto">Projeto com HTML e CSS que te apresenta a história do sistema operacional mais famoso no mundo</p>
                                     <a href="https://pedroinaciop.github.io/projeto-android/" class="projects__descrição__botão">Aproveite ></a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <img src="imagens/img_cordel.png" alt="" class="projects__imagem">
+                                <div class="projects__descrição">
+                                    <h1>Cordel Moderno</h1>
+                                    <p class="projects__descrição__texto">Projeto com HTML e CSS que te apresenta um lindo e replexivo cordel</p>
+                                    <a href="https://pedroinaciop.github.io/projeto-android/" class="projects__descrição__botão">Aproveite ></a>
+                                </div>
                             </div>
                             <div class="swiper-slide">
                                     <img src="imagens/img_loja.png" alt="" class="projects__imagem">
+                                    <div class="projects__descrição">
+                                        <h1>E-commerce</h1>
+                                        <p class="projects__descrição__texto">Projeto com HTML, CSS e JS que futuramente será um e-commerce</p>
+                                        <a href="https://pedroinaciop.github.io/projeto-android/" class="projects__descrição__botão">Aproveite ></a>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
@@ -154,16 +167,33 @@
             <section id="contacts" class="secao__mobile">
                 <h1 class="title">Contato</h1>
                 <p class="subtitle">Entre em contato comigo!</p><br>
-                    <div>
-                        <span class="material-symbols-outlined" id="icons_contatos">call</span>
-                            <p class="funcao">Me ligue!</p>
-                            <p>+55 (11) 95609-3164</p><br>
-                        <span class="material-symbols-outlined" id="icons_contatos">mail</span>
-                            <p class="funcao">Email</p>
-                            <p>inaciopedro2004@gmail.com</p><br>
-                        <span class="material-symbols-outlined" id="icons_contatos">location_city</span>
-                            <p class="funcao">Localização</p>
-                            <p>São Paulo - SP</p>
+
+                    <div class="contacts__personal">
+                        
+                        <div class="contacts__personal__list">
+                            <span class="material-symbols-outlined">call</span>
+                            <div>
+                                <p class="contacts__personal__item">Me ligue!</p>
+                                <p>+55 (11) 95609-3164</p>
+                            </div>
+                        </div>
+
+                        <div class="contacts__personal__list">
+                            <span class="material-symbols-outlined">mail</span>
+                            <div>
+                                <p class="contacts__personal__item">Email</p>
+                                <p>inaciopedro2004@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contacts__personal__list">
+                            <span class="material-symbols-outlined">location_city</span>
+                            <div>
+                                <p class="contacts__personal__item">Localização</p>
+                                <p>São Paulo - SP</p>
+                            </div>
+                        </div>
+
                     </div>
             </section>
 

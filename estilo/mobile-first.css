@@ -25,7 +25,7 @@
     }
     
     .title {
-        padding: 90px 0px  0px 0px;
+        padding: 50px 0px 0px 0px;
         font-size: 1.63rem;
         text-align: center;
     }
@@ -146,14 +146,15 @@
 
 /*---------------------------------- SOBRE MIM -------------------------------------*/
 
-    .about_me h1 {
-        background-color: #242424;
-        padding: 100px 20px 0px 20px;
+    .about_me {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
     }
 
     .about_text {
         text-align: justify;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         padding: 0px 15px;
     }
 
@@ -168,22 +169,18 @@
     }
 
     .skills {
-        display: inline-block;
-        width: 200px;
-        height: 200px;
-        border-radius: 5px;
+        padding: 5px;
     }
     
     .skills img {
-        margin: auto;
         display: block;
-        padding-top: 15px;
+        margin: auto;
     }
 
     .estrelas {
-        padding: 5px;
         display: flex;
         justify-content: center;
+        padding: 5px;
     }
 
     .estrelas input[type=radio] {
@@ -220,6 +217,39 @@
    
 /*---------------------------------- PROJETOS ---------------------------------------*/
 
+    .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .title__projects {
+        padding: 100px 0 0 0; 
+    }
+
+    .projects__descrição {
+        padding: 2em;
+    }
+
+    .projects__descrição__texto {
+        padding: 1.5em 0;
+    }
+
+    .projects__descrição__botão {
+        position: absolute;
+        background: var(--color1);
+        color: var(--color2);
+        font-weight: 800;
+        text-decoration: none;
+        padding: .8em;
+        border-radius: 10px;
+        
+    }
+
+    .projects__imagem {
+        width: 85%;
+    }
+
     .swiper-pagination {
         position: initial;
     }
@@ -230,10 +260,6 @@
 
     .swiper-pagination {
         margin: 1em 0;
-    }
-
-    .projects__imagem {
-        width: 65%;
     }
 
     .swiper-button-next, 
@@ -248,36 +274,35 @@
         align-items: center;
     }
 
-    .projects__descrição {
-        padding: 1em;
-    }
-
-    .projects__descrição__botão {
-        background: var(--color1);
-        color: var(--color2);
-        text-decoration: none;
-        padding: .6em;
-        border-radius: 10px;
-    }
-
-
 /*---------------------------------- CONTATOS ---------------------------------------*/
 
-    div#contacts {
-        height: 400px;
-        text-align: center;  
+    .secao__mobile {
+        height: 73vh;
     }
 
-    .funcao {
-        display: none;
+    .contacts__personal {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        padding: 4em 2.3em;
+    }
+
+    .contacts__personal__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contacts__personal__item {
+        font-size: 1.2rem;
+        font-weight: 800;
+        margin-bottom: 8px;
     }
 
     .material-symbols-outlined {
         color: var(--color1);
-    }
-
-    .secao__mobile {
-        height: 70vh;
+        padding: 0em .5em;
     }
 
 /*---------------------------------- FOOTER ---------------------------------------*/
