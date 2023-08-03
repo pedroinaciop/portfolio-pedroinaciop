@@ -277,7 +277,7 @@
 /*---------------------------------- CONTATOS ---------------------------------------*/
 
     .secao__mobile {
-        height: 73vh;
+        height: 63vh;
     }
 
     .contacts__personal {
@@ -307,44 +307,29 @@
 
 /*---------------------------------- FOOTER ---------------------------------------*/
 
-    footer {
-        height: 180px;
+    .rodape {
+        height: 23vh;
         background-color: var(--color1);
         color: var(--color2);
+        padding: 2em;
     }
 
-    footer h1 {     
-        font-size: 1.63rem;
-        margin: 0;    
+    .rodape__descricao h1 {
+        font-size: 1.8rem;
     }
 
-    footer h3 {
-        margin: 0;
+    .rodape__descricao h3 {
+        font-size: 1rem;
+        font-weight: 100;
     }
 
-    footer p {
-        text-align: center;
-        font-size: 0.625rem;
+    .rodape__redes {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        padding: 35px 0;
     }
 
-    .redes_footer {
-        box-sizing: border-box
-    }
-
-    .redes_footer a {
-        text-align: center;
+    .rodape__redes svg {
         color: var(--color2);
     }
-
-    .redes_footer a:hover {
-        color: var(--color3);
-    }
-
-    .descricao {
-        display: flex;
-        align-items: center;
-        justify-content: space-between; 
-        padding: 20px;
-    }
-   
-
