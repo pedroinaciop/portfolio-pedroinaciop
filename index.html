@@ -9,23 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="estilo/mobile-first.css">
     <link rel="stylesheet" href="estilo/media-query.css">
     <title>Pedro Inácio | Portfólio </title>
 </head>
-
-<div class="box-load">
-    <div class="pre"></div>
-</div>
-
-<div class="content">
-<body onload="loading()">
-
         <header>  
-            <div id="mode">
-                <input type="checkbox" id="darkmode-button" onclick="darkMode()">
-                <label for="darkmode-button" id="darkmode-button"></label>
-            </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -36,17 +25,14 @@
             </nav>
         </header>
 
-        <!---->
         <section></section>
         <a href="#" class="btn" onclick="toUp()"></a>
-        <!---->
 
         <main>
             <section class="home" id="home">
                 <article class="right-menu">
                     <img class="photo" src="imagens/minha_img.jpg" alt="">
                 </article>
-
                 <article class="left-menu">
                     <h1><span class="material-symbols-outlined" id="destaque">waving_hand</span> Olá,<br>
                         meu nome é <span class="destaque">Pedro Inácio</span>
@@ -75,7 +61,6 @@
             <section id="about_me">
                 <h1 class="title">Sobre mim</h1>
                 <p class="subtitle" style="text-align: center;">Um pouco sobre mim e habilidades!</p><br>
-                
                 <article>
                     <p class="about_text">
                         Cursando Ciência da Computação na <strong>FMU</strong> e se especializando na <strong>Alura</strong>, apaixonado por tecnologia, design e conhecimento.
@@ -139,22 +124,33 @@
             </section>
 
             <section id="projects">
-                    <h1 class="title" id="projects">Projetos</h1>
-                    <p class="subtitle">Meu pequenos projetos!</p><br>
-
-                        <div class="img_projects">
-                            <a href="https://pedroinaciop.github.io/projeto-site_zndental/" target="_blank">
-                                <img src="imagens/img_loja.png" alt="Imagem 1" class="interacao_imagem">
-                            </a>
-                            <a href="https://pedroinaciop.github.io/projeto-android/" target="_blank">
-                                <img src="imagens/img_android.png" alt="Imagem 2" class="interacao_imagem">
-                            </a>
-                            <a href="https://pedroinaciop.github.io/projeto-cordel/" target="_blank">
-                                <img src="imagens/img_cordel.png" alt="Imagem 3"class="interacao_imagem">
-                            </a>
+                <h1 class="title" id="projects">Projetos</h1>
+                <p class="subtitle">Meus projetos pessoais!</p><br>
+                   
+                <div class="swiper">
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="imagens/img_android.png" alt="" class="projects__imagem">
+                                <div>
+                                    <h1>História do Android</h1>
+                                    <p>Projeto com HTML e CSS que te apresenta a história do sistema operacional mais famoso no mundo</p>
+                                    <a href="https://pedroinaciop.github.io/projeto-android/">Aproveite</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="imagens/img_cordel.png" alt="" class="projects__imagem">
+                            </div>
+                            <div class="swiper-slide">
+                                    <img src="imagens/img_loja.png" alt="" class="projects__imagem">
+                            </div>
                         </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
             </section>
-
 
             <section id="contact">
                 <h1 class="title">Contato</h1>
@@ -172,7 +168,6 @@
                     <p>São Paulo - SP</p>
                 </div>
             </section>
-       
         </main>
 
         <footer>
@@ -200,9 +195,18 @@
             </section>
                     <p>©Pedro Inácio (@pedroinaciop) 2023 - Todos os direitos reservados.</p>
         </footer>
-        
-</div> <!-- DIV LOADING-->
 
 <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
 </body>
 </html>

@@ -111,25 +111,34 @@
 
 /*---------------------------------- PROJETOS ---------------------------------------*/  
 
-    .img_projects {
+
+    .swiper-pagination {
+        position: initial;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .projects__imagem {
+        width: 70%;
+    }
+
+    .swiper-button-next, 
+    .swiper-button-prev, 
+    .swiper-scrollbar {
+        display: none;
+    }
+
+    .swiper-slide {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 40px 0px 125px 0px;
+        align-items: center;
     }
 
-    .interacao_imagem:hover {
-        height: 17rem;
-        width: 25rem;  
-        cursor: pointer;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.467);
-    }
-
-    .img_projects img { 
-        height: 15rem;
-        width: 25rem;  
-        margin: 10px;
-    }  
 
 
 /*---------------------------------- CONTATOS ---------------------------------------*/
