@@ -333,3 +333,8 @@
     .rodape__redes svg {
         color: var(--color2);
     }
+
+    .rodape p {
+        font-size: .6rem;
+        text-align: center;
+    }
