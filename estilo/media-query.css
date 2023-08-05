@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 980px) {
     
     main {
         width: 50%;
@@ -44,75 +44,38 @@
     .projects {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 10px;
     }
 
     .title__projects {
-        padding: 100px 0 0 0; 
+        padding: 86px 0 0 0; 
     }
-
-    .projects__descrição {
-        padding: 2em;
-    }
-
-    .projects__descrição__texto {
-        padding: 1.5em 0;
-    }
-
+  
     .projects__descrição__botão {
-        position: absolute;
         background: var(--color1);
-        color: var(--color2);
         font-weight: 800;
-        text-decoration: none;
+        width: 86px;
         padding: .8em;
         border-radius: 10px;
-        
     }
 
     .projects__imagem {
-        width: 85%;
-    }
-
-    .swiper-pagination {
-        position: initial;
-    }
-
-    .swiper {
-        width: 100%;
-    }
-
-    .swiper-pagination {
-        margin: 1em 0;
+        width: 68%;
     }
 
     .swiper-button-next, 
-    .swiper-button-prev, 
+    .swiper-button-prev {
+        display: block;
+    }
+
     .swiper-scrollbar {
         display: none;
     }
 
-    .swiper-slide {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .swiper-backface-hidden .swiper-slide {
+        gap: 15px;
     }
 
-
-    /* oi */
-
-    .swiper-slide {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-
-    .projects__descrição__botão {
-        display: inline-flex;
-        margin-top: 20px;
-    }
-    
 /*---------------------------------- CONTATOS ---------------------------------------*/
 
     div#contacts {
@@ -138,43 +101,16 @@
 
 /*---------------------------------- FOOTER ---------------------------------------*/
 
-    footer {
-        height: 180px;
-        width: 100%;
-        background-color: var(--color1);
-        color: var(--color2);
-    }
+  .rodape__descricao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    margin-bottom: 80px;
+  }
 
-    footer h1 {     
-        font-size: 26px;
-        margin: 0;    
-    }
+  .rodape__redes {
+    padding: 0;
+  }
 
-    footer h3 {
-        margin: 0;
-    }
-
-    footer p {
-        text-align: center;
-        font-size: 10px;
-    }
-
-    .redes_footer {
-        box-sizing: border-box
-    }
-
-    .redes_footer a {
-        text-align: center;
-        color: var(--color2);
-    }
-
-    .redes_footer a:hover {
-        color: var(--color3);
-    }
-
-    .descricao {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 30px;
-    }
 }   
