@@ -132,12 +132,13 @@
     }
 
     .photo {
+        margin-bottom: 100px;
         width: 200px;
         border-radius: 200px; 
         border: 5px double var(--color1);
     }
 
-    .left-menu {
+    .menu__descricao {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -202,7 +203,6 @@
     }
 
     .estrelas label i.fa:hover {
-        font-size: 1.5rem;
         animation: loading 2.5s;
     }
       

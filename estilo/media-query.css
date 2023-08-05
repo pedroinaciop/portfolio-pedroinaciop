@@ -16,43 +16,90 @@
 /*---------------------------------- HEADER ---------------------------------------*/
     
     .navegacao  {
-        gap: 50px;
+        gap: 80px;
     }
 
 /*---------------------------------- MENU ---------------------------------------*/
     
     .home {
-        display: block;
-        margin: auto;
-        height: 650px; 
-        width: 730px;
-        padding-top: 100px;
-    }
-    
-    .right-menu {
-        width: 50%;
-        transform: translateX(100%);
-    }
-
-    .left-menu {
-        width: 50%;
-        transform: translateY(-55%);
+        height: 86vh;
+        flex-direction: row-reverse;
+        gap: 50px;
     }
 
     .photo {
-        width: 200px;
-        border-radius: 200px; 
-        border: 5px double var(--color1);
+        align-self: center;
+        width: 250px;
+        border: 2.5px solid var(--color1);
     }
 
 /*---------------------------------- SOBRE MIM -------------------------------------*/
 
-    div#about_me {
-        display: block;
-        margin: auto; 
+    .about_skills {
+       gap: 60px;
     }
 
 /*---------------------------------- PROJETOS ---------------------------------------*/  
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .title__projects {
+        padding: 100px 0 0 0; 
+    }
+
+    .projects__descrição {
+        padding: 2em;
+    }
+
+    .projects__descrição__texto {
+        padding: 1.5em 0;
+    }
+
+    .projects__descrição__botão {
+        position: absolute;
+        background: var(--color1);
+        color: var(--color2);
+        font-weight: 800;
+        text-decoration: none;
+        padding: .8em;
+        border-radius: 10px;
+        
+    }
+
+    .projects__imagem {
+        width: 85%;
+    }
+
+    .swiper-pagination {
+        position: initial;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper-button-next, 
+    .swiper-button-prev, 
+    .swiper-scrollbar {
+        display: none;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* oi */
 
     .swiper-slide {
         display: flex;
