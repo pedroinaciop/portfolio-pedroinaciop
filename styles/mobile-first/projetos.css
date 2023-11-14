@@ -1,0 +1,58 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title__projects {
+    padding: 100px 0 0 0; 
+}
+
+.projects__descrição {
+    padding: 2em;
+}
+
+.projects__descrição__texto {
+    padding: 1.5em 0;
+}
+
+.projects__descrição__botão {
+    background: var(--color1);
+    font-weight: 800;
+    width: 86px;
+    padding: .8em;
+    border-radius: 10px;
+}
+
+.projects__descrição__botão a {
+    color: var(--color2);
+    text-decoration: none;
+}
+
+.projects__imagem {
+    width: 85%;
+}
+
+.swiper-pagination {
+    position: initial;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-pagination {
+    margin: 1em 0;
+}
+
+.swiper-button-next, 
+.swiper-button-prev, 
+.swiper-scrollbar {
+    display: none;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

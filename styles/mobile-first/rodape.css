@@ -1,0 +1,31 @@
+.rodape {
+    height: 23vh;
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 2em;
+}
+
+.rodape__descricao h1 {
+    font-size: 1.8rem;
+}
+
+.rodape__descricao h3 {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.rodape__redes {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 35px 0;
+}
+
+.rodape__redes svg {
+    color: var(--color2);
+}
+
+.rodape p {
+    font-size: .6rem;
+    text-align: center;
+}

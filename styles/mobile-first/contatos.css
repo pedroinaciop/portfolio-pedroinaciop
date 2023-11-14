@@ -1,0 +1,28 @@
+.secao__mobile {
+    height: 63vh;
+}
+
+.contacts__personal {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    padding: 4em 2.3em;
+}
+
+.contacts__personal__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contacts__personal__item {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.material-symbols-outlined {
+    color: var(--color1);
+    padding: 0 0.1em;
+}

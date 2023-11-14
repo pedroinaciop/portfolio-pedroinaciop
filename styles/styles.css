@@ -1,0 +1,86 @@
+@import url(reset.css);
+@import url(mobile-first.css);
+@import url(mobile-first/cabecalho.css);
+@import url(mobile-first/menu.css);
+@import url(mobile-first/sobre-mim.css);
+@import url(mobile-first/projetos.css);
+@import url(mobile-first/contatos.css);
+@import url(mobile-first/rodape.css);
+@import url(media-query.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+:root {
+    --color1: #5050ee;
+    --color2: #ffffff;
+    --color3: #2828a4;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.secao {
+    height: 100vh;
+}
+
+.title {
+    padding: 50px 0px 0px 0px;
+    font-size: 1.63rem;
+    text-align: center;
+}
+
+p.subtitle {
+    text-align: center;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color1);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 0.8;
+    background-color: var(--color1);
+    text-decoration: none;
+    z-index: 3;
+}
+
+.btn::after {
+    content: "🠕";
+    display: flex;
+    justify-content: center;
+    font-size: 1.56rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: margin-top 250ms;
+}
+
+.btn:hover::after {
+    margin-top:-4px;
+} 

@@ -1,0 +1,30 @@
+.navegacao  {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.left-menu h1 {
+    font-size: 1.35rem;
+    margin-bottom: 15px;
+}
+
+.left-menu p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.navegacao__lista {
+    color: var(--color3);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navegacao__desktop {
+    display: none;
+} 
+
+.redes__link {
+    width: 60px;
+    padding: 15px;
+}
