@@ -1,67 +1,21 @@
-.about_me {
+.sobre__mim {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    gap: 20px;
+    padding: 4.5em 3em 0rem 3rem;
+}
+    
+.vertical {
+    height: 10px;
+    width: 116px;
+    transform: rotate(90deg);
+    
+    background-color: var(--color1);
 }
 
-.about_text {
-    text-align: justify;
-    font-size: 1.3rem;
-    padding: 0px 15px;
-}
-
-.about_skills {
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.about_skills img {
-    height: 120px;
-}
-
-.skills {
-    padding: 5px;
-}
-
-.skills img {
-    display: block;
-    margin: auto;
-}
-
-.estrelas {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-}
-
-.estrelas input[type=radio] {
-    display: none;
-}
-
-.estrelas label i.fa {
-    font-size: 1.2rem;
-    padding: 2px;
-}
-
-@keyframes loading {
-    0% {
-        transform: rotate(0);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-.estrelas label i.fa:hover {
-    animation: loading 2.5s;
-}
-  
-.estrelas label i.fa:before {
-    content:'\f005';
-    color: #FC0;
-}
-
-.estrelas input[type=radio]:checked ~ label i.fa:before {
-    color: #CCC;
+.sobre__mim-texto { 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.72px;
 }

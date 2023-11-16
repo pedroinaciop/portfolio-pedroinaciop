@@ -1,7 +1,7 @@
 .navegacao  {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 30px 20px;
 }
 
 .left-menu h1 {

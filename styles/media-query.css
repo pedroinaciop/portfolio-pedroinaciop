@@ -83,26 +83,6 @@
 
 /*---------------------------------- CONTATOS ---------------------------------------*/
 
-    div#contacts {
-        display: block;
-        margin: auto;
-        height: 320px;  
-        text-align: left;   
-    }
-
-    div#contacts p {
-        margin: 0;
-    }
-
-    .funcao {
-        display: block;
-    }
-
-    span#icons_contatos {
-        position: relative;
-        top: 25px;
-        right: 30px;
-    }
 
 /*---------------------------------- FOOTER ---------------------------------------*/
 
@@ -117,5 +97,4 @@
   .rodape__redes {
     padding: 0;
   }
-
 }   

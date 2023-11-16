@@ -1,28 +1,36 @@
-.secao__mobile {
-    height: 63vh;
+.contatos {
+    padding: 4em 2em;
 }
 
-.contacts__personal {
+.formulario {
     display: flex;
     flex-direction: column;
-    gap: 50px;
-
-    padding: 4em 2.3em;
+    gap: 20px;
 }
 
-.contacts__personal__list {
+.formulario__campo {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.contacts__personal__item {
-    font-size: 1.2rem;
-    font-weight: 800;
-    margin-bottom: 8px;
+input, textarea {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
 }
 
-.material-symbols-outlined {
-    color: var(--color1);
-    padding: 0 0.1em;
+textarea {
+    min-height: 30px;
+    resize: vertical;
 }
+
+.form input:hover, 
+.form input:focus, 
+.form textarea:hover, 
+.form textarea:hover {
+    outline: none;
+    border-color: var(--color1);
+    box-shadow: 0 0 0 3px var(--color1);
+}
+

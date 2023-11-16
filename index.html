@@ -13,234 +13,93 @@
     <link rel="stylesheet" href="styles/styles.css">
     <title>Pedro Inácio | Portfólio </title>
 </head>
-    <header>  
+<header>  
             <nav>
                 <ul class="navegacao">
                     <li><a href="#home" class="navegacao__lista">Home</a></li>
                     <li><a href="#about_me" class="navegacao__lista navegacao__desktop">Sobre mim</a></li>
-                    <li><a href="#projects" class="navegacao__lista ">Projetos</a></li>
-                    <li><a href="#contacts" class="navegacao__lista ">Contato</a></li>
+                    <li><a href="#projects" class="navegacao__lista">Projetos</a></li>
+                    <li><a href="#contacts" class="navegacao__lista botao__personalizado">Contato</a></li>
                 </ul>
             </nav>
-    </header>
+</header>
 
-    <section></section>
-    <a href="#" class="btn" onclick="toUp()"></a>
+<a href="#" class="btn" onclick="toUp()"></a>
 
-    <main>
-
-        <section id="home" class="home secao">
-
-                <img class="photo" src="imagens/imagem-principal.png" alt="Minha Foto (Pedro Inácio P.)">
-               
-                <section class="menu__descricao">
-                    <article>
-                        <h1><span class="material-symbols-outlined" id="destaque">waving_hand</span>
-                            Olá, meu nome é <span class="destaque">Pedro Inácio</span>
-                            </span> <br> Programador <span class="destaque">Front-End</span></h1>
-                        <p>Sou um Desenvolvedor 100% apaixona por<strong> Front-End! </strong>
-                            Eu amo trabalhar com tecnologias como <strong>HTML, CSS e JavaScript</strong>,
-                            mas também atuo com o <strong>Back-End.</strong>
-                        </p>
-                    </article>
-                    <div class="redes">
-                        <a href="https://www.linkedin.com/in/pedroinaciop/" target="_blank">
-                            <img src="imagens/linkedin.png" alt="Logo Github" class="redes__link">
-                        </a>
-                        <a href="https://github.com/pedroinaciop" target="_blank">
-                            <img src="imagens/github.png" alt="Logo LinkdIn" class="redes__link">
-                        </a>
-                    </div>
-                </section>
+<main>
+<section id="home" class="home">
+    <img class="photo" src="imagens/imagem-principal.png" alt="Foto ilustrativa de programação">
+        <section class="menu__descricao">
+            <article>
+                <h2 class="menu__profissao">DESENVOLVEDOR DE SOFTWARE</h2>
+                <h1 class="menu__nome">PEDRO INÁCIO</h1>
+                <p class="menu__sobre-mim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam, perspiciatis blanditiis illum eius veritatis, alias dolorem natus voluptas accusamus vero magni enim atque expedita ea mollitia illo sequi temporibus?</p>
+            </article>
         </section>
+        <a href="imagens/curriculo-pedro.pdf" download class="botao__personalizado download">Download CV</a>
+</section>
 
-        <section id="about_me" class="secao about_me">
-                <div>
-                    <h1 class="title">Sobre mim</h1>
-                    <p class="subtitle">Um pouco sobre mim e habilidades!</p><br>
-                </div>
-                <article>
-                    <p class="about_text">
-                        Cursando Ciência da Computação na <strong>FMU</strong> e se especializando na <strong>Alura</strong>, apaixonado por tecnologia, design e conhecimento.
-                        No momento, buscando e se preparando para minha primeira oportunidade na carreira como desenvolvedor. <br>
-                        Minhas metas atualmente são melhorar meus conhecimentos como dev e falante da língua inglesa.
-                    </p>
-                </article>
-                <article class="about_skills">
-                    <div class="skills">               
-                        <img src="imagens/html.png" alt="Imagem/Logo HTML">   
-                        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-                            <div class="estrelas">
-                                <input type="radio" id="cm_star-empty" name="html" value=""/>
-                                <label for="cm_star-1"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-1" name="html" value="1"/>
-                                <label for="cm_star-2"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-2" name="html" value="2"/>
-                                <label for="cm_star-3"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-3" name="html" value="3"/>
-                                <label for="cm_star-4"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-4" name="html" value="4" checked/>
-                                <label for="cm_star-5"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-5" name="html" value="5"/>
-                            </div>
-                    </div>
-                    <div class="skills">               
-                        <img src="imagens/css.png" alt="Imagem/Logo CSS">   
-                        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-                            <div class="estrelas">
-                                <input type="radio" id="cm_star-empty" name="css" value=""/>
-                                <label for="cm_star-6"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-6" name="css" value="6"/>
-                                <label for="cm_star-7"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-7" name="css" value="7"/>
-                                <label for="cm_star-8"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-8" name="css" value="8" checked/>
-                                <label for="cm_star-9"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-9" name="css" value="9"/>
-                                <label for="cm_star-10"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-10" name="css" value="10"/>
-                            </div>
-                    </div>
-                    <div class="skills">               
-                        <img src="imagens/js.png" alt="Imagem/Logo JavaScript">   
-                        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-                            <div class="estrelas">
-                                <input type="radio" id="cm_star-empty" name="js" value=""/>
-                                <label for="cm_star-11"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-11" name="js" value="11"/>
-                                <label for="cm_star-12"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-12" name="js" value="12" checked/>
-                                <label for="cm_star-13"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-13" name="js" value="13"/>
-                                <label for="cm_star-14"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-14" name="js" value="14"/>
-                                <label for="cm_star-15"><i class="fa"></i></label>
-                                <input type="radio" id="cm_star-15" name="js" value="15"/>
-                            </div>
-                    </div>         
-                </article>
-        </section>
+<section id="sobre__mim" class="sobre__mim">
+    <h2>Sobre mim</h2>
+    <div class="sobre__mim-informacoes">
+        <div class="vertical"></div>
+        <p class="sobre__mim-texto">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia molestiae vitae possimus alias    pariatur veniam nam ad! Ad sit enim aut eveniet exercitationem aperiam recusandae sint ducimus magni nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat laboriosam minus aut eveniet cupiditate explicabo quod ipsa odit culpa. Libero praesentium enim voluptatibus quaerat? Aperiam commodi maxime molestiae dolorem necessitatibus?
+        </p>
+    </div>
+</section>
 
-        <section id="projects" class="secao projects">
-                <div>
-                    <h1 id="projects" class="title title__projects" >Projetos</h1>
-                    <p class="subtitle">Meus projetos pessoais!</p><br>
-                </div>
-                <div class="swiper">
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="imagens/img_android.png" alt="Imagem do projeto android" class="projects__imagem">
-                                <div class="projects__descrição">
-                                    <h1>História do Android</h1>
-                                    <p class="projects__descrição__texto">Projeto com HTML e CSS que te apresenta a história do sistema operacional mais famoso no mundo</p>
-                                    <div class="projects__descrição__botão">
-                                        <a href="https://pedroinaciop.github.io/projeto-android/"  target="_blank">
-                                        Aproveite ></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="imagens/img_cordel.png" alt="Imagem do projeto cordel" class="projects__imagem" >
-                                <div class="projects__descrição">
-                                    <h1>Cordel Moderno</h1>
-                                    <p class="projects__descrição__texto">Projeto com HTML e CSS que te apresenta um lindo e replexivo cordel</p>
-                                    <div class="projects__descrição__botão" >
-                                        <a href="https://pedroinaciop.github.io/projeto-cordel/" target="_blank">Aproveite ></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                    <img src="imagens/img_loja.png" alt="Imagem do projeto e-commerce" class="projects__imagem">
-                                    <div class="projects__descrição">
-                                        <h1>E-commerce</h1>
-                                        <p class="projects__descrição__texto">Projeto com HTML, CSS e JS que futuramente será um e-commerce</p>
-                                        <div class="projects__descrição__botão" >
-                                            <a href="https://pedroinaciop.github.io/projeto-site_zndental/" target="_blank">Aproveite ></a>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-scrollbar"></div>
-                    </div>
-        </section>
+<section id="projetos" class="projetos">
+    
+    <h2 id="projects" class="projetos__titulo">Projetos</h2>
 
-        <section id="contacts" class="secao__mobile">
-                <h1 class="title">Contato</h1>
-                <p class="subtitle">Entre em contato comigo!</p><br>
+    <div class="container__projetos">
+        <h4 class="container__projetos-titulo">ZN Dental - E-commerce</h4>
+        <ul class="container__projetos-tecnologia">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+        <p class="container__projetos-descricao">O ZN Dental é um projeto pessoal em HTML, CSS e JS onde testo meus recentes conhecimentos, como, consumir dados com uma API, exemplo ViaCEP, <span>projeto em construção.</span></p>
+    </div>
 
-                    <div class="contacts__personal">
+    <div class="container__projetos">
+        <h4 class="container__projetos-titulo">Mochila de viagem</h4>
+        <ul class="container__projetos-tecnologia">
+            <li>JAVASCRIPT</li>
+        </ul>
+        <p class="container__projetos-descricao">O projeto mochila de viagem é um projeto onde explora o <span>Local Storage</span>, onde é possível adicionar, alterar e excluir "itens" do mesmo.</p>
+    </div>
 
-                        <div class="contacts__personal__list">
-                            <span class="material-symbols-outlined">call</span>
-                            <div>
-                                <p class="contacts__personal__item">Me ligue!</p>
-                                <p>+55 (11) 95609-3164</p>
-                            </div>
-                        </div>
+    <a href="https://github.com/pedroinaciop" target="_blank" class="botao__personalizado">MAIS PROJETOS</a>
+    
+</section>
 
-                        <div class="contacts__personal__list">
-                            <span class="material-symbols-outlined">mail</span>
-                            <div>
-                                <p class="contacts__personal__item">Email</p>
-                                <p>inaciopedro2004@gmail.com</p>
-                            </div>
-                        </div>
+<section id="contacts" class="contatos">
+    <form action="https://formsubmit.co/inaciopedro2004@gmail.com" method="POST" class="formulario">
+        <h2>Formulário de contato</h2>
+        <div class="formulario__campo">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Seu nome" required>
+        </div>
+        <div class="formulario__campo">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Seu endereço de e-mail" required>
+        </div>
+        <div class="formulario__campo">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" placeholder="Escreva aqui"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+   </form>
+</section>
+</main>
 
-                        <div class="contacts__personal__list">
-                            <span class="material-symbols-outlined">location_city</span>
-                            <div>
-                                <p class="contacts__personal__item">Localização</p>
-                                <p>São Paulo - SP</p>
-                            </div>
-                        </div>
-
-                    </div>
-        </section>
-
-    </main>
-
-    <footer class="rodape">
-            <section class="rodape__informacoes">
-                <article class="rodape__descricao">
-                    <div class="rodape__me">
-                        <h1>Pedro Inácio</h1>
-                        <h3>Desenvolvedor Front-End</h3>
-                    </div>
-                    <div class="rodape__redes">
-                        <a href="https://github.com/pedroinaciop" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                                    <path fill="currentColor"
-                                        d="M10.07 20.503a1 1 0 0 0-1.18-.983c-1.31.24-2.963.276-3.402-.958a5.708 5.708 0 0 0-1.837-2.415a1.2 1.2 0 0 1-.167-.11a1 1 0 0 0-.93-.645h-.005a1 1 0 0 0-1 .995c-.004.815.81 1.338 1.141 1.514a4.44 4.44 0 0 1 .924 1.36c.365 1.023 1.423 2.576 4.466 2.376l.003.098l.004.268a1 1 0 0 0 2 0l-.005-.318c-.005-.19-.012-.464-.012-1.182ZM20.737 5.377a5.39 5.39 0 0 0 .09-.42a6.278 6.278 0 0 0-.408-3.293a1.002 1.002 0 0 0-.615-.58c-.356-.12-1.67-.357-4.184 1.25a13.87 13.87 0 0 0-6.354 0C6.762.75 5.455.966 5.102 1.079a.997.997 0 0 0-.631.584a6.3 6.3 0 0 0-.404 3.357c.025.127.051.246.079.354a6.27 6.27 0 0 0-1.256 3.83a8.422 8.422 0 0 0 .043.921c.334 4.603 3.334 5.984 5.424 6.459a4.591 4.591 0 0 0-.118.4a1 1 0 0 0 1.942.479a1.678 1.678 0 0 1 .468-.878a1 1 0 0 0-.546-1.745c-3.454-.395-4.954-1.802-5.18-4.899a6.61 6.61 0 0 1-.033-.738a4.258 4.258 0 0 1 .92-2.713a3.022 3.022 0 0 1 .195-.231a1 1 0 0 0 .188-1.025a3.388 3.388 0 0 1-.155-.555a4.094 4.094 0 0 1 .079-1.616a7.543 7.543 0 0 1 2.415 1.18a1.009 1.009 0 0 0 .827.133a11.777 11.777 0 0 1 6.173.001a1.005 1.005 0 0 0 .83-.138a7.572 7.572 0 0 1 2.406-1.19a4.04 4.04 0 0 1 .087 1.578a3.205 3.205 0 0 1-.169.607a1 1 0 0 0 .188 1.025c.078.087.155.18.224.268A4.122 4.122 0 0 1 20 9.203a7.039 7.039 0 0 1-.038.777c-.22 3.056-1.725 4.464-5.195 4.86a1 1 0 0 0-.546 1.746a1.63 1.63 0 0 1 .466.908a3.06 3.06 0 0 1 .093.82v2.333c-.01.648-.01 1.133-.01 1.356a1 1 0 1 0 2 0c0-.217 0-.692.01-1.34v-2.35a4.881 4.881 0 0 0-.155-1.311a4.256 4.256 0 0 0-.116-.416a6.513 6.513 0 0 0 5.445-6.424A8.697 8.697 0 0 0 22 9.203a6.13 6.13 0 0 0-1.263-3.826Z" />
-                                </svg>
-                        </a>
-                        <a href="https://www.linkedin.com/in/pedroinaciop/" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 14 14">
-                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                        d="M3.54 1.71a1.33 1.33 0 0 1-1.3 1.34A1.36 1.36 0 0 1 .93 1.71A1.34 1.34 0 0 1 2.24.43a1.33 1.33 0 0 1 1.3 1.28ZM1.07 5.43c0-.77.49-.65 1.17-.65s1.16-.12 1.16.65v7.5c0 .78-.49.62-1.16.62s-1.17.16-1.17-.62Zm4.35 0c0-.43.16-.59.41-.64s1.11 0 1.41 0s.42.49.41.86a2.51 2.51 0 0 1 2.24-1a3 3 0 0 1 3.18 3.13v5.12c0 .78-.48.62-1.16.62s-1.16.16-1.16-.62v-4a1.44 1.44 0 0 0-1.52-1.56a1.45 1.45 0 0 0-1.48 1.59v4c0 .78-.49.62-1.17.62s-1.16.16-1.16-.62Z" />
-                                </svg>
-                        </a>
-                    </div>
-                </article>
-            </section>
-                    <p>©Pedro Inácio (@pedroinaciop) 2023 - Todos os direitos reservados.</p>
-    </footer>
+<footer class="rodape">
+    <h3>Desenvolvido por Pedro Inácio</h3>
+    <p>©Pedro Inácio (@pedroinaciop) - 2023 <br> Todos os direitos reservados.</p>
+</footer>
 
 <script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 1,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            }
-        });
-</script>
-
 </body>
 </html>
