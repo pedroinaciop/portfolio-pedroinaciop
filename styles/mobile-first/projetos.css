@@ -1,8 +1,8 @@
 .projetos {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     padding: 4.5em 2em 0em 2em;
+    gap: 20px;
 }
 
 .container__projetos {

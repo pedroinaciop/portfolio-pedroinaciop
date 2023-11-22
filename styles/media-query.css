@@ -1,100 +1,49 @@
-@charset "UTF-8";
-
 @media screen and (min-width: 980px) {
     
     main {
-        width: 50%;
-        padding-top: 0;
-        margin-left: auto;
-        margin-right: auto;   
-    }
-
-    .secao {
-        height: 100vh;
-    }
-    
-/*---------------------------------- HEADER ---------------------------------------*/
-    
-    .navegacao  {
-        gap: 80px;
+        display: block;
+        margin: auto;
+        width: 85vw;
     }
 
     .navegacao__desktop {
         display: block;
     } 
-    
 
-/*---------------------------------- MENU ---------------------------------------*/
-    
+    /*---------------------------------------------*/
+
     .home {
-        height: 86vh;
         flex-direction: row-reverse;
-        gap: 50px;
+        gap: 100px;
     }
 
-    .photo {
-        align-self: center;
-        width: 250px;
-        border: 2.5px solid var(--color1);
+    .menu__profissao, .menu__nome, .menu__sobre-mim  {
+        text-align: left;
     }
 
-/*---------------------------------- SOBRE MIM -------------------------------------*/
-
-    .about_skills {
-       gap: 60px;
+    .download {
+        align-self: flex-start;
+        margin: 40px 0px;
+        width: 20%;
     }
 
-/*---------------------------------- PROJETOS ---------------------------------------*/  
+    .projetos {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0em;
+        gap: 20px;
+    }
 
-    .projects {
+    .project__section {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        padding: 4.5em 2em 0em 2em;
+        gap: 30px 0px;
     }
 
-    .title__projects {
-        padding: 86px 0 0 0; 
-    }
-  
-    .projects__descrição__botão {
-        background: var(--color1);
-        font-weight: 800;
-        width: 86px;
-        padding: .8em;
-        border-radius: 10px;
+    .container__projetos {
+        width: 45%;
     }
 
-    .projects__imagem {
-        width: 68%;
-    }
-
-    .swiper-button-next, 
-    .swiper-button-prev {
-        display: block;
-    }
-
-    .swiper-scrollbar {
-        display: none;
-    }
-
-    .swiper-backface-hidden .swiper-slide {
-        gap: 15px;
-    }
-
-/*---------------------------------- CONTATOS ---------------------------------------*/
-
-
-/*---------------------------------- FOOTER ---------------------------------------*/
-
-  .rodape__descricao {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 300px;
-    margin-bottom: 80px;
-  }
-
-  .rodape__redes {
-    padding: 0;
-  }
 }   

@@ -25,12 +25,24 @@ textarea {
     resize: vertical;
 }
 
-.form input:hover, 
-.form input:focus, 
-.form textarea:hover, 
-.form textarea:hover {
-    outline: none;
-    border-color: var(--color1);
-    box-shadow: 0 0 0 3px var(--color1);
+input, textarea {
+    outline: .5px solid var(--color4);
+}
+
+input:hover, textarea:hover  {
+    background-color: #0099cc18;
+    outline: .5px solid #0099cc;
+}
+
+.btn-enviar {
+    background-color: var(--color1);
+    color: var(--color2);
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+}
+.obrigatorio {
+    color: #ff0000;
 }
 

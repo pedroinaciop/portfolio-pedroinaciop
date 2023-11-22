@@ -35,8 +35,8 @@
                 <h1 class="menu__nome">PEDRO INÁCIO</h1>
                 <p class="menu__sobre-mim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam, perspiciatis blanditiis illum eius veritatis, alias dolorem natus voluptas accusamus vero magni enim atque expedita ea mollitia illo sequi temporibus?</p>
             </article>
+            <a href="imagens/curriculo-pedro.pdf" download class="botao__personalizado download">Download CV</a>
         </section>
-        <a href="imagens/curriculo-pedro.pdf" download class="botao__personalizado download">Download CV</a>
 </section>
 
 <section id="sobre__mim" class="sobre__mim">
@@ -49,27 +49,41 @@
     </div>
 </section>
 
-<section id="projetos" class="projetos">
+<section id="projetos" class="project__section">
     
     <h2 id="projects" class="projetos__titulo">Projetos</h2>
-
-    <div class="container__projetos">
-        <h4 class="container__projetos-titulo">ZN Dental - E-commerce</h4>
-        <ul class="container__projetos-tecnologia">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-        </ul>
-        <p class="container__projetos-descricao">O ZN Dental é um projeto pessoal em HTML, CSS e JS onde testo meus recentes conhecimentos, como, consumir dados com uma API, exemplo ViaCEP, <span>projeto em construção.</span></p>
-    </div>
-
-    <div class="container__projetos">
-        <h4 class="container__projetos-titulo">Mochila de viagem</h4>
-        <ul class="container__projetos-tecnologia">
-            <li>JAVASCRIPT</li>
-        </ul>
-        <p class="container__projetos-descricao">O projeto mochila de viagem é um projeto onde explora o <span>Local Storage</span>, onde é possível adicionar, alterar e excluir "itens" do mesmo.</p>
-    </div>
+    <section class="projetos">
+        <div class="container__projetos">
+            <h4 class="container__projetos-titulo">ZN Dental - E-commerce</h4>
+            <ul class="container__projetos-tecnologia">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+            </ul>
+            <p class="container__projetos-descricao">O ZN Dental é um projeto pessoal em HTML, CSS e JS onde testo meus recentes conhecimentos, como, consumir dados com uma API, exemplo ViaCEP, <span>projeto em construção.</span></p>
+        </div>
+        <div class="container__projetos">
+            <h4 class="container__projetos-titulo">Mochila de viagem</h4>
+            <ul class="container__projetos-tecnologia">
+                <li>JAVASCRIPT</li>
+            </ul>
+            <p class="container__projetos-descricao">O projeto mochila de viagem é um projeto onde explora o <span>Local Storage</span>, onde é possível adicionar, alterar e excluir "itens" do mesmo.</p>
+        </div>
+        <div class="container__projetos">
+            <h4 class="container__projetos-titulo">Mochila de viagem</h4>
+            <ul class="container__projetos-tecnologia">
+                <li>JAVASCRIPT</li>
+            </ul>
+            <p class="container__projetos-descricao">O projeto mochila de viagem é um projeto onde explora o <span>Local Storage</span>, onde é possível adicionar, alterar e excluir "itens" do mesmo.</p>
+        </div>
+        <div class="container__projetos">
+            <h4 class="container__projetos-titulo">Mochila de viagem</h4>
+            <ul class="container__projetos-tecnologia">
+                <li>JAVASCRIPT</li>
+            </ul>
+            <p class="container__projetos-descricao">O projeto mochila de viagem é um projeto onde explora o <span>Local Storage</span>, onde é possível adicionar, alterar e excluir "itens" do mesmo.</p>
+        </div>
+    </section>
 
     <a href="https://github.com/pedroinaciop" target="_blank" class="botao__personalizado">MAIS PROJETOS</a>
     
@@ -79,18 +93,18 @@
     <form action="https://formsubmit.co/inaciopedro2004@gmail.com" method="POST" class="formulario">
         <h2>Formulário de contato</h2>
         <div class="formulario__campo">
-            <label for="name">Nome</label>
+            <label for="name">Nome<span class="obrigatorio">*</span></label>
             <input type="text" name="name" id="name" placeholder="Seu nome" required>
         </div>
         <div class="formulario__campo">
-            <label for="email">E-mail</label>
+            <label for="email">E-mail<span class="obrigatorio">*</span></label>
             <input type="email" name="email" id="email" placeholder="Seu endereço de e-mail" required>
         </div>
         <div class="formulario__campo">
-            <label for="message">Mensagem</label>
-            <textarea name="message" id="message" placeholder="Escreva aqui"></textarea>
+            <label for="message">Mensagem<span class="obrigatorio">*</span></label>
+            <textarea name="message" id="message" placeholder="Escreva aqui" required></textarea>
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit" class="btn-enviar">ENVIAR</button>
    </form>
 </section>
 </main>
