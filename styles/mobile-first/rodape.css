@@ -1,11 +1,22 @@
 .rodape {
-    background-color: var(--color1);
+    background-color: #1d1d80;
     color: var(--color2);
+    text-align: center;
     padding: 2em;
 
-    text-align: center;
+    border-top: 7px solid var(--color1);
 }
 
-.rodape  p {
+.rodape p {
     margin: 15px;
+}
+
+.icones__rodape {
+    height: 45px;
+}
+
+.container__icones-rodape {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }

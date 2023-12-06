@@ -4,14 +4,6 @@
     gap: 20px;
     padding: 4.5em 3em 0rem 3rem;
 }
-    
-.vertical {
-    height: 10px;
-    width: 116px;
-    transform: rotate(90deg);
-    
-    background-color: var(--color1);
-}
 
 .sobre__mim-texto { 
     font-size: 18px;

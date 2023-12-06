@@ -1,4 +1,4 @@
-.navegacao  {
+.navegacao {
     display: flex;
     justify-content: space-between;
     margin: 30px 20px;
@@ -23,8 +23,3 @@
 .navegacao__desktop {
     display: none;
 } 
-
-.redes__link {
-    width: 60px;
-    padding: 15px;
-}

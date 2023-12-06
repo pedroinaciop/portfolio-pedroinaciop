@@ -1,7 +1,7 @@
 .projetos {
     display: flex;
     flex-direction: column;
-    padding: 4.5em 2em 0em 2em;
+    padding: 4.5em 3em 0em 3em;
     gap: 20px;
 }
 
@@ -13,6 +13,13 @@
     flex-direction: column;
     padding: 1em;
     gap: 15px;
+}
+
+.projetos__desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .container__projetos-titulo {
@@ -45,7 +52,7 @@
     text-decoration: none;
     box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.15);
 
-    width: 80%;
+    width: 89%;
     padding: .8rem;
     align-self: center;
 }

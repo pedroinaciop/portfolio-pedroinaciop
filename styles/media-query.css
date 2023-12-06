@@ -3,7 +3,7 @@
     main {
         display: block;
         margin: auto;
-        width: 85vw;
+        width: 75vw;
     }
 
     .navegacao__desktop {
@@ -11,8 +11,19 @@
     } 
 
     /*---------------------------------------------*/
+    
+    .navegacao {
+        justify-content: space-around;
+    }
+
+    .navegacao__lista:hover {
+        color: var(--color1);
+    }
+    
+    /*---------------------------------------------*/
 
     .home {
+        justify-content: center;
         flex-direction: row-reverse;
         gap: 100px;
     }
@@ -27,23 +38,28 @@
         width: 20%;
     }
 
-    .projetos {
-        flex-direction: row;
-        justify-content: center;
+    /*---------------------------------------------------------*/
+
+    .projetos__desktop {
+        display: flex;
         flex-wrap: wrap;
-        padding: 0em;
+        justify-content: center;
         gap: 20px;
     }
 
-    .project__section {
-        display: flex;
-        flex-direction: column;
-        padding: 4.5em 2em 0em 2em;
-        gap: 30px 0px;
-    }
-
     .container__projetos {
-        width: 45%;
+        width: 45.5%;
     }
+    
+    .botao__personalizado {
+        width: 40%;
+    }
+    /*----------------------------------------------------------*/
 
+    .btn-enviar {
+        align-self: center;
+        width: 50%;
+
+    }
 }   
+
