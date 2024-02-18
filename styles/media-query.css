@@ -3,7 +3,7 @@
     main {
         display: block;
         margin: auto;
-        width: 75vw;
+        width: 100vw;
     }
 
     .navegacao__desktop {
@@ -13,7 +13,15 @@
     /*---------------------------------------------*/
     
     .navegacao {
-        justify-content: space-around;
+        background-color: var(--color2);
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 10px 0px;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        margin: 0px;
+        gap: 100px;
     }
 
     .navegacao__lista:hover {
@@ -23,13 +31,19 @@
     /*---------------------------------------------*/
 
     .home {
+        height: 100vh;
+        padding: 0;
         justify-content: center;
         flex-direction: row-reverse;
-        gap: 100px;
+        gap: 170px;
     }
 
     .menu__profissao, .menu__nome, .menu__sobre-mim  {
         text-align: left;
+    }
+
+    .container__icones-tecnologias {
+        justify-content: left;
     }
 
     .download {
@@ -40,26 +54,33 @@
 
     /*---------------------------------------------------------*/
 
-    .projetos__desktop {
-        display: flex;
-        flex-wrap: wrap;
+    .sobre__mim {
+        background-color: var(--color2);
+        padding: 0 200px;
+        height: 100vh;
+
+        flex-direction: row;
         justify-content: center;
-        gap: 20px;
+        gap: 80px;
     }
 
-    .container__projetos {
-        width: 45.5%;
+    /*---------------------------------------------------------*/
+
+    .container__projeto {
+        flex-direction: row;
+        gap: 100px;
     }
     
-    .botao__personalizado {
-        width: 40%;
+    .imagem__projeto {
+        width: 450px;
     }
+
     /*----------------------------------------------------------*/
 
-    .btn-enviar {
-        align-self: center;
-        width: 50%;
-
+    .contatos {
+        background-color: var(--color2);
+        height: 40vh;
     }
+    
 }   
 

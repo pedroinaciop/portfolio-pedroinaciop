@@ -1,7 +1,7 @@
 .navegacao {
-    display: flex;
     justify-content: space-between;
     margin: 30px 20px;
+    display: flex;
 }
 
 .left-menu h1 {
@@ -16,8 +16,8 @@
 
 .navegacao__lista {
     color: var(--color3);
-    font-weight: 500;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navegacao__desktop {
