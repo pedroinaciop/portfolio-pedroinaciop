@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
-    padding: 4.5em 3em 4.5rem 3rem;
+    gap: 4rem;
+
+    padding: 4.5rem 3rem 4.5rem 3rem;
 }
 
 .container__projeto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .projeto__titulo-projeto {
@@ -18,38 +19,41 @@
 }
 
 .projeto__texto {
-    margin-top: 30px;
+    text-align: justify;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.72px;
-    text-align: center;
+    
+    margin-top: 1.2rem;
 }
 
 .imagem__projeto {
-    width: 300px;
-    border-radius: 20px;
+    width: 350px;
+    border-radius: 1.5rem;
 }
 
 .projeto__links {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    gap: 50px;
+    gap: 3rem;
+
+    padding: 2rem;
 }
 
 .links {
     display: flex;
-    gap: 5px;
+    gap: 0.5rem;
 }
 
 .links a {
     color: var(--color4);
+
     text-decoration: none;
     font-weight: bold;
 }
 
 .imagens__links {
-    height: 17px;
+    height: 1rem;
 }

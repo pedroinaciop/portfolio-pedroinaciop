@@ -1,10 +1,4 @@
 @media screen and (min-width: 980px) {
-    
-    main {
-        display: block;
-        margin: auto;
-        width: 100vw;
-    }
 
     .navegacao__desktop {
         display: block;
@@ -13,29 +7,28 @@
     /*---------------------------------------------*/
     
     .navegacao {
+        height: 3.5rem;
+        width: 100%;
+
         background-color: var(--color2);
         box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 10px 0px;
+
         justify-content: center;
         align-items: center;
         position: fixed;
-        height: 60px;
-        width: 100%;
         margin: 0px;
         gap: 100px;
     }
 
-    .navegacao__lista:hover {
-        color: var(--color1);
-    }
-    
     /*---------------------------------------------*/
 
-    .home {
+    .menu {
         height: 100vh;
-        padding: 0;
+
         justify-content: center;
         flex-direction: row-reverse;
         gap: 170px;
+        padding: 0;
     }
 
     .menu__profissao, .menu__nome, .menu__sobre-mim  {
@@ -46,18 +39,13 @@
         justify-content: left;
     }
 
-    .download {
-        align-self: flex-start;
-        margin: 40px 0px;
-        width: 20%;
-    }
-
     /*---------------------------------------------------------*/
 
     .sobre__mim {
+        height: 100vh;
+
         background-color: var(--color2);
         padding: 0 200px;
-        height: 100vh;
 
         flex-direction: row;
         justify-content: center;
@@ -71,16 +59,19 @@
         gap: 100px;
     }
     
-    .imagem__projeto {
-        width: 450px;
+    .projeto__texto {
+        width: 30rem;
     }
 
     /*----------------------------------------------------------*/
 
     .contatos {
-        background-color: var(--color2);
         height: 40vh;
+
+        background-color: var(--color2);
+        padding: 6rem 10rem;
     }
+    
     
 }   
 

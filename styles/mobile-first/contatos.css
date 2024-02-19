@@ -1,5 +1,7 @@
 .contatos {
-    padding: 30px 200px 0px 200px;
+    background-color: var(--color2);
+
+    padding: 3em 3em 0em 3em;
 }
 
 .paragrafos__contatos {

@@ -1,12 +1,17 @@
 .navegacao {
+    margin: 2rem;
+    
     justify-content: space-between;
-    margin: 30px 20px;
     display: flex;
 }
 
+.navegacao__desktop {
+    display: none;
+} 
+
 .left-menu h1 {
     font-size: 1.35rem;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .left-menu p {
@@ -20,6 +25,6 @@
     font-weight: bold;
 }
 
-.navegacao__desktop {
-    display: none;
-} 
+.navegacao__lista:hover {
+    color: var(--color1);
+}

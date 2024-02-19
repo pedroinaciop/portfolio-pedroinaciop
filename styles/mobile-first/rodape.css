@@ -1,14 +1,15 @@
 .rodape {
     background-color: #1d1d80;
     color: var(--color2);
-    text-align: center;
-    padding: 2em;
 
-    border-top: 7px solid var(--color1);
+    text-align: center;
+
+    border-top: .3rem solid var(--color1);
+    padding: 2em;
 }
 
 .rodape p {
-    margin: 15px;
+    margin: 1rem;
 }
 
 .icones__rodape {
@@ -18,5 +19,5 @@
 .container__icones-rodape {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 2rem;
 }
