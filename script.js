@@ -1,3 +1,4 @@
-const date = new Date()
+const anoHTML = document.querySelector('.ano');
+const date = new Date();
 
-console.log(date.getFullYear())
+anoHTML.textContent = date.getFullYear();

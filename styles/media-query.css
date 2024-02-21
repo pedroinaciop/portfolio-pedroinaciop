@@ -28,7 +28,7 @@
         justify-content: center;
         flex-direction: row-reverse;
         gap: 170px;
-        padding: 0;
+        padding: 0rem 4rem;
     }
 
     .menu__profissao, .menu__nome, .menu__sobre-mim  {
