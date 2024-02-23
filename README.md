@@ -7,15 +7,13 @@
 
 https://pedroinaciop.github.io/portfolio-pedroinaciop/
 
-.
 
 ## Layout mobile
-![Mobile](https://pedroinaciop.github.io/portfolio-pedroinaciop/imagens/mobile.png)
-
+![Mobile](https://pedroinaciop.github.io/portfolio-pedroinaciop/images/mobile-portfolio-2.png)
 
 
 ## Layout web
-![Web](https://pedroinaciop.github.io/portfolio-pedroinaciop/imagens/web.png)
+![Web](https://pedroinaciop.github.io/portfolio-pedroinaciop/images/web-portfolio-1.png)
 
 ## Tecnologias utilizadas
 [![Minhas Habilidades](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
