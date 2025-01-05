@@ -33,6 +33,7 @@ html, body {
     border: 0;  
     font-family: "Poppins", sans-serif;
     background-color: var(--color7);
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Pedro Inácio, desenvolvedor back-end apaixonado por Spring Boot e desenvolvimento de software.">
+    <meta name="keywords" content="desenvolvedor, back-end, portfólio, spring boot">
+    <meta name="author" content="Pedro Inácio">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +35,7 @@
                     <h2 class="menu__profissao">DESENVOLVEDOR DE SOFTWARE</h2>
                     <h1 class="menu__nome">PEDRO INÁCIO</h1>
                     <p class="menu__sobre-mim">Estudo e me dedico para ser um <strong>DEV BACK-END</strong> 
-                    <br>Atualmente estou estudando <strong>Spring Boot.</strong></p>
+                    <br>Atualmente estou estudando <strong>Spring Boot</strong> e <strong>JPA</strong>.</p>
                 </article>
                 <section class="container__icones-tecnologias">
                     <img class="icones-tecnologias" src="images/java-logo.png" alt="ícone Java">  
@@ -44,65 +47,127 @@
     </section>
 
     <section id="sobre__mim" class="sobre__mim">
-        <div>
-            <img class="sobre-mim-imagem" src="images/imagem_coding.png" alt="">
-        </div>
         <div class="sobre__mim-informacoes">
+            <figure>
+                <img class="sobre-mim-imagem" src="images/imagem_coding.png" alt="Imagem demonstrativa de um computador em uma mesa">
+            </figure>
+
+            <aside>
             <h2>SOBRE MIM</h2>
-            <p class="sobre__mim-texto">
-                Meu nome é Pedro Inácio, tenho 20 anos e estou no 7º semestre de Ciência da Computação. Iniciei minha carreira como Suporte Técnico e QA, onde desenvolvi habilidades práticas em análise de sistemas e resolução de problemas. No entanto, minha verdadeira paixão está no desenvolvimento de software Back-end. Por isso, tenho me dedicado a criar projetos pessoais que aplicam os conhecimentos adquiridos na faculdade e nos cursos da Alura. Cada novo projeto é uma oportunidade de transformar ideias em soluções reais, consolidando minha transição para o desenvolvimento de software.
-            </p>
+                <article class="sobre__mim-texto">
+                    Meu nome é Pedro Inácio, tenho 20 anos e estou no 7º semestre de Ciência da Computação. Iniciei minha carreira como Suporte Técnico e QA, onde desenvolvi habilidades práticas em análise de sistemas e resolução de problemas. No entanto, minha verdadeira paixão está no desenvolvimento de software Back-end. Por isso, tenho me dedicado a criar projetos pessoais que aplicam os conhecimentos adquiridos na faculdade e nos cursos da Alura. Cada novo projeto é uma oportunidade de transformar ideias em soluções reais, consolidando minha transição para o desenvolvimento de software.
+                </article>
+            </aside>
+        </div>
+
+        <div class="sobre__mim-experiencias">
+            <h2>Experiências</h2>
+            <article class="sobre__mim-texto">
+                SistGlobal Sistemas e Computadores LTDA | 05/2023 - Atualmente
+                <br><br>
+                Responsável por oferecer assistência técnica à infraestrutura de TI e softwares de
+                logística como, WMS, TMS e EMBARCADOR. Após um período, comecei a realizar
+                atividades essenciais para assegurar a qualidade dos nossos softwares ao realizar
+                testes. Para isso, utilizo testes funcionais e não funcionais e contribuo para a
+                formulação de estratégias, planos de teste e avaliação dos resultados.
+            </article>
+        </div>
+
+        <div class="sobre__mim-educacao">
+            <h2>Educação</h2>
+            <article class="sobre__mim-texto">
+                <p><strong>Centro Universitário das Faculdades Metropolitanas Unidas</strong></p>
+                <p>2022 - Atualmente</p>
+                <p>Ciência da Computação 7/8;</p><br>
+                <p><strong>Alura – Cursos online de tecnologia</strong></p>
+                <p>2022 - Atualmente</p>
+                <p>Curso online de tecnologia;</p><br>
+                <p><strong>Wizard by Person</strong></p>
+                <p>2022 - Atualmente</p>
+                <p>Inglês Intermediário.</p>
+            </article>
         </div>
     </section>
+    
 
     <section id="projects" class="projetos">
-        <h2 class="projetos__titulo">PROJETOS</h2>     
-        <div class="container__projeto">
-            <img class="imagem__projeto" src="images/web-1.png" alt="">
-            <div>
-                <h4 class="projeto__titulo-projeto">E-Commerce 🪥</h4>
-                <p class="projeto__texto">O E-commerce ZN Dental é feito em <strong>React</strong> e <strong>JavaScript</strong>, onde testo meus recentes conhecimentos em como consumir dados com administrar constuir components em React<br></p>
+        <h2 class="projetos__titulo">PROJETOS</h2> 
+
+        <section class="container__projeto">
+            <figure>
+                <img class="imagem__projeto" src="images/screen-match.png" alt="Imagem projeto screen match">
+            </figure>
+            <article>
+                <h4 class="projeto__titulo-projeto">Screen Match 🎞️</h4>
+                <p class="projeto__texto">Este projeto é uma aplicação <strong>Full-Stack</strong> local que utiliza <strong>Spring Boot</strong> para gerenciar um banco de dados com frases de filmes e séries. A aplicação realiza requisições para selecionar aleatoriamente uma frase armazenada e responde às chamadas feitas pelo <strong>JavaScript</strong>, garantindo uma interação fluida e integrada entre as camadas do sistema.</p>
+                
+                <a href="https://github.com/pedroinaciop/frases_db" target="_blank">
+                    <div class="projeto__links">
+                        <div class="links">Code<img class="imagens__links" src="images/code.png" alt="Ícone code">
+                        </div>
+                    </div>
+                </a>
+
+            </article>
+        </section>
+        
+        <section class="container__projeto">
+            <figure>
+                <img class="imagem__projeto" src="images/web-1.png" alt="Imagem do projeto e-commerce">
+            </figure>
+            <article>
+                <h4 class="projeto__titulo-projeto">E-Commerce 🪥 *Em construção*</h4>
+                <p class="projeto__texto">O E-commerce ZN Dental foi desenvolvido com <strong>React</strong> e <strong>JavaScript</strong>, sendo um projeto onde aplico e testo meus conhecimentos recentes na construção e administração de componentes em React, além do consumo de dados de forma dinâmica.</p>
+                
+                <a href="https://github.com/pedroinaciop/zn_dental-react" target="_blank">
                 <div class="projeto__links">
                     <div class="links">
-                        <a href="https://github.com/pedroinaciop/zn_dental-react" target="_blank">Code</a>
-                        <img class="imagens__links" src="images/code.png" alt="">
+                            Code<img class="imagens__links" src="images/code.png" alt="ícone code">
                     </div>
+                </a>
+
+                <a href="https://zn-dental-react-j0lt7q4bo-pedroinaciops-projects.vercel.app/" target="_blank">
                     <div class="links">
-                        <a href="https://zn-dental-react-j0lt7q4bo-pedroinaciops-projects.vercel.app/" target="_blank">Github Pages</a>
-                        <img class="imagens__links" src="images/github-black.png" alt="">
+                        Github Pages <img class="imagens__links" src="images/github-black.png" alt="Ícone github pages">
                     </div>
+                </a>
                 </div>
-            </div>
-        </div>
-        <div class="container__projeto">
-            <img class="imagem__projeto" src="https://pedroinaciop.github.io/Bytebank/dist/images/web-1.png" alt="">
-            <div>
+            </article>
+        </section>
+
+        <section class="container__projeto">
+            <figure>
+                <img class="imagem__projeto" src="https://pedroinaciop.github.io/Bytebank/dist/images/web-1.png" alt="Imagem do projeto bytebank">
+            </figure>
+            <article>
                 <h4 class="projeto__titulo-projeto">ByteBank 🏦</h4>
-                <p class="projeto__texto">O ByteBank é um projeto feito com foco em aprimorar e conhecer tecnologias novas do <strong>TypeScript</strong> e <strong>localStorage</strong>.</p>
+                <p class="projeto__texto">O ByteBank é um projeto desenvolvido com o objetivo de explorar e aprimorar conhecimentos em novas tecnologias, como <strong>TypeScript</strong> e <strong>localStorage</strong>.</p>
+                
+                <a href="https://github.com/pedroinaciop/Bytebank" target="_blank">
                 <div class="projeto__links">
                     <div class="links">
-                        <a href="https://github.com/pedroinaciop/Bytebank" target="_blank">Code</a>
-                        <img class="imagens__links" src="images/code.png" alt="">
+                        Code <img class="imagens__links" src="images/code.png" alt="ícone code">
                     </div>
+                </a>
+                <a href="https://bytebank-be5907tv7-pedroinaciops-projects.vercel.app/" target="_blank">
                     <div class="links">
-                        <a href="https://bytebank-be5907tv7-pedroinaciops-projects.vercel.app/" target="_blank">Github Pages</a>
-                        <img class="imagens__links" src="images/github-black.png" alt="">
+                        Github Pages <img class="imagens__links" src="images/github-black.png" alt="ícone github pages">
                     </div>
+                </a>
                 </div>
-            </div>
-        </div>
+            </article>
+        </section>
     </section>    
 
     <section id="contacts" class="contatos">
         <h2>Contato</h2>
-
         <div class="paragrafos__contatos">
-            <div class="container__icones-contatos"><img class="container__imagem-contatos" src="images/gmail.png" alt=""></div>
+            <div class="container__icones-contatos"><img class="container__imagem-contatos" src="images/gmail.png" alt="ícone email"></div>
             <p>inaciopedro2004@gmail.com</p>
         </div>
 
         <div class="paragrafos__contatos">
-            <div class="container__icones-contatos"><img class="container__imagem-contatos" src="images/mapas-do-google.png" alt=""></div>
+            <div class="container__icones-contatos"><img class="container__imagem-contatos" src="images/mapas-do-google.png" alt="Ícone telefone"></div>
             <p>São Paulo, Brasil</p>
         </div>
     </section>

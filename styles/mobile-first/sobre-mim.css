@@ -1,4 +1,5 @@
 .sobre__mim {
+    height: 100%;
     background-color: var(--color2);
 
     display: flex;
@@ -9,9 +10,20 @@
     padding: 4.5rem 3rem 0rem 3rem;
 }
 
+.sobre__mim-informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+
+.sobre__mim-experiencias, .sobre__mim-educacao {
+  width: 100%;      
+}
+
 .sobre__mim-texto { 
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     
     font-size: 18px;
     font-weight: 400;
